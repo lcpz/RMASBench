@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<scenario:scenario xmlns:scenario="urn:roborescue:map:scenario">
+  <scenario:firestation scenario:location="64173"/>
+
+  <scenario:fire scenario:location="35014"/>
+  <scenario:fire scenario:location="64580"/>
+  <scenario:fire scenario:location="39441"/>
+
+  <scenario:firebrigade scenario:location="10345"/>
+  <scenario:firebrigade scenario:location="10345"/>
+  <scenario:firebrigade scenario:location="10345"/>
+  <scenario:firebrigade scenario:location="14737"/>
+  <scenario:firebrigade scenario:location="14737"/>
+  <scenario:firebrigade scenario:location="14737"/>
+  <scenario:firebrigade scenario:location="14737"/>
+  <scenario:firebrigade scenario:location="18220"/>
+  <scenario:firebrigade scenario:location="18220"/>
+  <scenario:firebrigade scenario:location="18220"/>
+  <scenario:firebrigade scenario:location="18220"/>
+  <scenario:firebrigade scenario:location="18238"/>
+  <scenario:firebrigade scenario:location="18238"/>
+  <scenario:firebrigade scenario:location="8581"/>
+  <scenario:firebrigade scenario:location="8581"/>
+  <scenario:firebrigade scenario:location="12730"/>
+  <scenario:firebrigade scenario:location="12730"/>
+  <scenario:firebrigade scenario:location="8581"/>
+  <scenario:firebrigade scenario:location="8581"/>
+  <scenario:firebrigade scenario:location="18238"/>
+  <scenario:firebrigade scenario:location="18238"/>
+  <scenario:firebrigade scenario:location="2053"/>
+  <scenario:firebrigade scenario:location="2053"/>
+  <scenario:firebrigade scenario:location="2053"/>
+  <scenario:firebrigade scenario:location="13666"/>
+  <scenario:firebrigade scenario:location="13666"/>
+  <scenario:firebrigade scenario:location="16924"/>
+  <scenario:firebrigade scenario:location="16924"/>
+  <scenario:firebrigade scenario:location="7834"/>
+  <scenario:firebrigade scenario:location="7834"/>
+  <scenario:firebrigade scenario:location="7834"/>
+</scenario:scenario>

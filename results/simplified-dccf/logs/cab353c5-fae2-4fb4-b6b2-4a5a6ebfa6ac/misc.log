@@ -1,0 +1,921 @@
+INFO launcher : Processing jar directory: /home/lc2n18/t00/rmasbench-sequential/RSLB2/boot/../../roborescue/jars
+INFO launcher : Processing ../../roborescue/jars/human.jar
+INFO launcher : Processing ../../roborescue/jars/sample.jar
+WARN launcher : Class sample.CustomRegistryTestAgent$CustomEntityFactory not found
+INFO launcher : Processing ../../roborescue/jars/collapse.jar
+INFO launcher : Processing ../../roborescue/jars/misc.jar
+INFO launcher : Processing ../../roborescue/jars/clear.jar
+INFO launcher : Processing ../../roborescue/jars/maps.jar
+INFO launcher : Processing ../../roborescue/jars/resq-fire.jar
+INFO launcher : Processing ../../roborescue/jars/ignition.jar
+INFO launcher : Processing ../../roborescue/jars/handy.jar
+INFO launcher : Processing ../../roborescue/jars/standard.jar
+INFO launcher : Registered entity factory 'rescuecore2.standard.entities.StandardEntityFactory' with registry System
+INFO launcher : Registered property factory 'rescuecore2.standard.entities.StandardPropertyFactory' with registry System
+INFO launcher : Registered message factory 'rescuecore2.standard.messages.StandardMessageFactory' with registry System
+INFO launcher : Processing ../../roborescue/jars/gis2.jar
+INFO launcher : Processing ../../roborescue/jars/traffic3.jar
+INFO launcher : Processing ../../roborescue/jars/kernel.jar
+INFO launcher : Launching 1 instances of component 'misc.MiscSimulator'...
+INFO launcher : Launching instance 1...
+INFO misc.MiscSimulator : misc.MiscSimulator@474fcfbb connected
+INFO misc.MiscSimulator : MiscSimulator connected. World has 4658 entities.
+INFO launcher : success
+INFO misc.MiscSimulator : Unrecognised message type: urn:rescuecore2:messages.control:ks_aftershocks_info : TIMES = [], INTENSITIES = []
+INFO misc.MiscSimulator : Timestep 1
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 1 took 2 ms
+INFO misc.MiscSimulator : Timestep 2
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 2 took 1 ms
+INFO misc.MiscSimulator : Timestep 3
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 3 took 1 ms
+INFO misc.MiscSimulator : Timestep 4
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 4 took 0 ms
+INFO misc.MiscSimulator : Timestep 5
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 5 took 0 ms
+INFO misc.MiscSimulator : Timestep 6
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 6 took 1 ms
+INFO misc.MiscSimulator : Timestep 7
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 7 took 0 ms
+INFO misc.MiscSimulator : Timestep 8
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 8 took 1 ms
+INFO misc.MiscSimulator : Timestep 9
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 9 took 0 ms
+INFO misc.MiscSimulator : Timestep 10
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 10 took 0 ms
+INFO misc.MiscSimulator : Timestep 11
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 11 took 1 ms
+INFO misc.MiscSimulator : Timestep 12
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 12 took 0 ms
+INFO misc.MiscSimulator : Timestep 13
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 13 took 0 ms
+INFO misc.MiscSimulator : Timestep 14
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 14 took 1 ms
+INFO misc.MiscSimulator : Timestep 15
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 15 took 1 ms
+INFO misc.MiscSimulator : Timestep 16
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 16 took 9 ms
+INFO misc.MiscSimulator : Timestep 17
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 17 took 0 ms
+INFO misc.MiscSimulator : Timestep 18
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 18 took 0 ms
+INFO misc.MiscSimulator : Timestep 19
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 19 took 1 ms
+INFO misc.MiscSimulator : Timestep 20
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 20 took 0 ms
+INFO misc.MiscSimulator : Timestep 21
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 21 took 0 ms
+INFO misc.MiscSimulator : Timestep 22
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 22 took 1 ms
+INFO misc.MiscSimulator : Timestep 23
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 23 took 0 ms
+INFO misc.MiscSimulator : Timestep 24
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 24 took 0 ms
+INFO misc.MiscSimulator : Timestep 25
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 25 took 1 ms
+INFO misc.MiscSimulator : Timestep 26
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 26 took 0 ms
+INFO misc.MiscSimulator : Timestep 27
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 27 took 0 ms
+INFO misc.MiscSimulator : Timestep 28
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 28 took 1 ms
+INFO misc.MiscSimulator : Timestep 29
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 29 took 1 ms
+INFO misc.MiscSimulator : Timestep 30
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 30 took 0 ms
+INFO misc.MiscSimulator : Timestep 31
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 31 took 150 ms
+INFO misc.MiscSimulator : Timestep 32
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 32 took 1 ms
+INFO misc.MiscSimulator : Timestep 33
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 33 took 1 ms
+INFO misc.MiscSimulator : Timestep 34
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 34 took 1 ms
+INFO misc.MiscSimulator : Timestep 35
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 35 took 1 ms
+INFO misc.MiscSimulator : Timestep 36
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 36 took 0 ms
+INFO misc.MiscSimulator : Timestep 37
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 37 took 1 ms
+INFO misc.MiscSimulator : Timestep 38
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 38 took 0 ms
+INFO misc.MiscSimulator : Timestep 39
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 39 took 0 ms
+INFO misc.MiscSimulator : Timestep 40
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 40 took 1 ms
+INFO misc.MiscSimulator : Timestep 41
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 41 took 0 ms
+INFO misc.MiscSimulator : Timestep 42
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 42 took 0 ms
+INFO misc.MiscSimulator : Timestep 43
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 43 took 0 ms
+INFO misc.MiscSimulator : Timestep 44
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 44 took 1 ms
+INFO misc.MiscSimulator : Timestep 45
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 45 took 0 ms
+INFO misc.MiscSimulator : Timestep 46
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 46 took 1 ms
+INFO misc.MiscSimulator : Timestep 47
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 47 took 0 ms
+INFO misc.MiscSimulator : Timestep 48
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 48 took 3 ms
+INFO misc.MiscSimulator : Timestep 49
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 49 took 1 ms
+INFO misc.MiscSimulator : Timestep 50
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 50 took 1 ms
+INFO misc.MiscSimulator : Timestep 51
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 51 took 1 ms
+INFO misc.MiscSimulator : Timestep 52
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 52 took 1 ms
+INFO misc.MiscSimulator : Timestep 53
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 53 took 0 ms
+INFO misc.MiscSimulator : Timestep 54
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 54 took 0 ms
+INFO misc.MiscSimulator : Timestep 55
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 55 took 1 ms
+INFO misc.MiscSimulator : Timestep 56
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 56 took 0 ms
+INFO misc.MiscSimulator : Timestep 57
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 57 took 0 ms
+INFO misc.MiscSimulator : Timestep 58
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 58 took 0 ms
+INFO misc.MiscSimulator : Timestep 59
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 59 took 1 ms
+INFO misc.MiscSimulator : Timestep 60
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 60 took 1 ms
+INFO misc.MiscSimulator : Timestep 61
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 61 took 0 ms
+INFO misc.MiscSimulator : Timestep 62
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 62 took 1 ms
+INFO misc.MiscSimulator : Timestep 63
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 63 took 0 ms
+INFO misc.MiscSimulator : Timestep 64
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 64 took 1 ms
+INFO misc.MiscSimulator : Timestep 65
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 65 took 1 ms
+INFO misc.MiscSimulator : Timestep 66
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 66 took 0 ms
+INFO misc.MiscSimulator : Timestep 67
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 67 took 1 ms
+INFO misc.MiscSimulator : Timestep 68
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 68 took 0 ms
+INFO misc.MiscSimulator : Timestep 69
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 69 took 0 ms
+INFO misc.MiscSimulator : Timestep 70
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 70 took 1 ms
+INFO misc.MiscSimulator : Timestep 71
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 71 took 1 ms
+INFO misc.MiscSimulator : Timestep 72
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 72 took 0 ms
+INFO misc.MiscSimulator : Timestep 73
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 73 took 0 ms
+INFO misc.MiscSimulator : Timestep 74
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 74 took 0 ms
+INFO misc.MiscSimulator : Timestep 75
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 75 took 1 ms
+INFO misc.MiscSimulator : Timestep 76
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 76 took 1 ms
+INFO misc.MiscSimulator : Timestep 77
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 77 took 1 ms
+INFO misc.MiscSimulator : Timestep 78
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 78 took 1 ms
+INFO misc.MiscSimulator : Timestep 79
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 79 took 1 ms
+INFO misc.MiscSimulator : Timestep 80
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 80 took 0 ms
+INFO misc.MiscSimulator : Timestep 81
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 81 took 1 ms
+INFO misc.MiscSimulator : Timestep 82
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 82 took 0 ms
+INFO misc.MiscSimulator : Timestep 83
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 83 took 1 ms
+INFO misc.MiscSimulator : Timestep 84
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 84 took 0 ms
+INFO misc.MiscSimulator : Timestep 85
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 85 took 1 ms
+INFO misc.MiscSimulator : Timestep 86
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 86 took 0 ms
+INFO misc.MiscSimulator : Timestep 87
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 87 took 0 ms
+INFO misc.MiscSimulator : Timestep 88
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 88 took 1 ms
+INFO misc.MiscSimulator : Timestep 89
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 89 took 0 ms
+INFO misc.MiscSimulator : Timestep 90
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 90 took 1 ms
+INFO misc.MiscSimulator : Timestep 91
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 91 took 1 ms
+INFO misc.MiscSimulator : Timestep 92
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 92 took 0 ms
+INFO misc.MiscSimulator : Timestep 93
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 93 took 0 ms
+INFO misc.MiscSimulator : Timestep 94
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 94 took 0 ms
+INFO misc.MiscSimulator : Timestep 95
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 95 took 1 ms
+INFO misc.MiscSimulator : Timestep 96
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 96 took 0 ms
+INFO misc.MiscSimulator : Timestep 97
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 97 took 0 ms
+INFO misc.MiscSimulator : Timestep 98
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 98 took 0 ms
+INFO misc.MiscSimulator : Timestep 99
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 99 took 0 ms
+INFO misc.MiscSimulator : Timestep 100
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 100 took 0 ms
+INFO misc.MiscSimulator : Timestep 101
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 101 took 0 ms
+INFO misc.MiscSimulator : Timestep 102
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 102 took 0 ms
+INFO misc.MiscSimulator : Timestep 103
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 103 took 1 ms
+INFO misc.MiscSimulator : Timestep 104
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 104 took 1 ms
+INFO misc.MiscSimulator : Timestep 105
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 105 took 1 ms
+INFO misc.MiscSimulator : Timestep 106
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 106 took 1 ms
+INFO misc.MiscSimulator : Timestep 107
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 107 took 0 ms
+INFO misc.MiscSimulator : Timestep 108
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 108 took 0 ms
+INFO misc.MiscSimulator : Timestep 109
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 109 took 0 ms
+INFO misc.MiscSimulator : Timestep 110
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 110 took 0 ms
+INFO misc.MiscSimulator : Timestep 111
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 111 took 1 ms
+INFO misc.MiscSimulator : Timestep 112
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 112 took 0 ms
+INFO misc.MiscSimulator : Timestep 113
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 113 took 1 ms
+INFO misc.MiscSimulator : Timestep 114
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 114 took 0 ms
+INFO misc.MiscSimulator : Timestep 115
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 115 took 0 ms
+INFO misc.MiscSimulator : Timestep 116
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 116 took 0 ms
+INFO misc.MiscSimulator : Timestep 117
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 117 took 1 ms
+INFO misc.MiscSimulator : Timestep 118
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 118 took 81 ms
+INFO misc.MiscSimulator : Timestep 119
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 119 took 0 ms
+INFO misc.MiscSimulator : Timestep 120
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 120 took 1 ms
+INFO misc.MiscSimulator : Timestep 121
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 121 took 0 ms
+INFO misc.MiscSimulator : Timestep 122
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 122 took 0 ms
+INFO misc.MiscSimulator : Timestep 123
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 123 took 0 ms
+INFO misc.MiscSimulator : Timestep 124
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 124 took 0 ms
+INFO misc.MiscSimulator : Timestep 125
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 125 took 0 ms
+INFO misc.MiscSimulator : Timestep 126
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 126 took 1 ms
+INFO misc.MiscSimulator : Timestep 127
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 127 took 1 ms
+INFO misc.MiscSimulator : Timestep 128
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 128 took 1 ms
+INFO misc.MiscSimulator : Timestep 129
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 129 took 1 ms
+INFO misc.MiscSimulator : Timestep 130
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 130 took 1 ms
+INFO misc.MiscSimulator : Timestep 131
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 131 took 1 ms
+INFO misc.MiscSimulator : Timestep 132
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 132 took 0 ms
+INFO misc.MiscSimulator : Timestep 133
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 133 took 0 ms
+INFO misc.MiscSimulator : Timestep 134
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 134 took 0 ms
+INFO misc.MiscSimulator : Timestep 135
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 135 took 0 ms
+INFO misc.MiscSimulator : Timestep 136
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 136 took 1 ms
+INFO misc.MiscSimulator : Timestep 137
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 137 took 1 ms
+INFO misc.MiscSimulator : Timestep 138
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 138 took 1 ms
+INFO misc.MiscSimulator : Timestep 139
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 139 took 0 ms
+INFO misc.MiscSimulator : Timestep 140
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 140 took 1 ms
+INFO misc.MiscSimulator : Timestep 141
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 141 took 0 ms
+INFO misc.MiscSimulator : Timestep 142
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 142 took 1 ms
+INFO misc.MiscSimulator : Timestep 143
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 143 took 1 ms
+INFO misc.MiscSimulator : Timestep 144
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 144 took 0 ms
+INFO misc.MiscSimulator : Timestep 145
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 145 took 0 ms
+INFO misc.MiscSimulator : Timestep 146
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 146 took 0 ms
+INFO misc.MiscSimulator : Timestep 147
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 147 took 0 ms
+INFO misc.MiscSimulator : Timestep 148
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 148 took 1 ms
+INFO misc.MiscSimulator : Timestep 149
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 149 took 1 ms
+INFO misc.MiscSimulator : Timestep 150
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 150 took 0 ms
+INFO misc.MiscSimulator : Timestep 151
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 151 took 1 ms
+INFO misc.MiscSimulator : Timestep 152
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 152 took 0 ms
+INFO misc.MiscSimulator : Timestep 153
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 153 took 1 ms
+INFO misc.MiscSimulator : Timestep 154
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 154 took 0 ms
+INFO misc.MiscSimulator : Timestep 155
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 155 took 0 ms
+INFO misc.MiscSimulator : Timestep 156
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 156 took 0 ms
+INFO misc.MiscSimulator : Timestep 157
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 157 took 1 ms
+INFO misc.MiscSimulator : Timestep 158
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 158 took 0 ms
+INFO misc.MiscSimulator : Timestep 159
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 159 took 1 ms
+INFO misc.MiscSimulator : Timestep 160
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 160 took 0 ms
+INFO misc.MiscSimulator : Timestep 161
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 161 took 1 ms
+INFO misc.MiscSimulator : Timestep 162
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 162 took 0 ms
+INFO misc.MiscSimulator : Timestep 163
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 163 took 0 ms
+INFO misc.MiscSimulator : Timestep 164
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 164 took 0 ms
+INFO misc.MiscSimulator : Timestep 165
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 165 took 0 ms
+INFO misc.MiscSimulator : Timestep 166
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 166 took 0 ms
+INFO misc.MiscSimulator : Timestep 167
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 167 took 1 ms
+INFO misc.MiscSimulator : Timestep 168
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 168 took 1 ms
+INFO misc.MiscSimulator : Timestep 169
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 169 took 0 ms
+INFO misc.MiscSimulator : Timestep 170
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 170 took 1 ms
+INFO misc.MiscSimulator : Timestep 171
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 171 took 0 ms
+INFO misc.MiscSimulator : Timestep 172
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 172 took 1 ms
+INFO misc.MiscSimulator : Timestep 173
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 173 took 0 ms
+INFO misc.MiscSimulator : Timestep 174
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 174 took 1 ms
+INFO misc.MiscSimulator : Timestep 175
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 175 took 0 ms
+INFO misc.MiscSimulator : Timestep 176
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 176 took 0 ms
+INFO misc.MiscSimulator : Timestep 177
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 177 took 1 ms
+INFO misc.MiscSimulator : Timestep 178
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 178 took 1 ms
+INFO misc.MiscSimulator : Timestep 179
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 179 took 1 ms
+INFO misc.MiscSimulator : Timestep 180
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 180 took 1 ms
+INFO misc.MiscSimulator : Timestep 181
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 181 took 0 ms
+INFO misc.MiscSimulator : Timestep 182
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 182 took 1 ms
+INFO misc.MiscSimulator : Timestep 183
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 183 took 0 ms
+INFO misc.MiscSimulator : Timestep 184
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 184 took 0 ms
+INFO misc.MiscSimulator : Timestep 185
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 185 took 0 ms
+INFO misc.MiscSimulator : Timestep 186
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 186 took 0 ms
+INFO misc.MiscSimulator : Timestep 187
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 187 took 0 ms
+INFO misc.MiscSimulator : Timestep 188
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 188 took 0 ms
+INFO misc.MiscSimulator : Timestep 189
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 189 took 0 ms
+INFO misc.MiscSimulator : Timestep 190
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 190 took 0 ms
+INFO misc.MiscSimulator : Timestep 191
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 191 took 0 ms
+INFO misc.MiscSimulator : Timestep 192
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 192 took 1 ms
+INFO misc.MiscSimulator : Timestep 193
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 193 took 0 ms
+INFO misc.MiscSimulator : Timestep 194
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 194 took 1 ms
+INFO misc.MiscSimulator : Timestep 195
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 195 took 0 ms
+INFO misc.MiscSimulator : Timestep 196
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 196 took 0 ms
+INFO misc.MiscSimulator : Timestep 197
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 197 took 0 ms
+INFO misc.MiscSimulator : Timestep 198
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 198 took 1 ms
+INFO misc.MiscSimulator : Timestep 199
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 199 took 0 ms
+INFO misc.MiscSimulator : Timestep 200
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 200 took 0 ms
+INFO misc.MiscSimulator : Timestep 201
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 201 took 0 ms
+INFO misc.MiscSimulator : Timestep 202
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 202 took 0 ms
+INFO misc.MiscSimulator : Timestep 203
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 203 took 0 ms
+INFO misc.MiscSimulator : Timestep 204
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 204 took 0 ms
+INFO misc.MiscSimulator : Timestep 205
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 205 took 0 ms
+INFO misc.MiscSimulator : Timestep 206
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 206 took 1 ms
+INFO misc.MiscSimulator : Timestep 207
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 207 took 1 ms
+INFO misc.MiscSimulator : Timestep 208
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 208 took 0 ms
+INFO misc.MiscSimulator : Timestep 209
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 209 took 0 ms
+INFO misc.MiscSimulator : Timestep 210
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 210 took 0 ms
+INFO misc.MiscSimulator : Timestep 211
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 211 took 0 ms
+INFO misc.MiscSimulator : Timestep 212
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 212 took 0 ms
+INFO misc.MiscSimulator : Timestep 213
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 213 took 0 ms
+INFO misc.MiscSimulator : Timestep 214
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 214 took 1 ms
+INFO misc.MiscSimulator : Timestep 215
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 215 took 0 ms
+INFO misc.MiscSimulator : Timestep 216
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 216 took 0 ms
+INFO misc.MiscSimulator : Timestep 217
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 217 took 0 ms
+INFO misc.MiscSimulator : Timestep 218
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 218 took 0 ms
+INFO misc.MiscSimulator : Timestep 219
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 219 took 1 ms
+INFO misc.MiscSimulator : Timestep 220
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 220 took 2 ms
+INFO misc.MiscSimulator : Timestep 221
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 221 took 0 ms
+INFO misc.MiscSimulator : Timestep 222
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 222 took 0 ms
+INFO misc.MiscSimulator : Timestep 223
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 223 took 0 ms
+INFO misc.MiscSimulator : Timestep 224
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 224 took 0 ms
+INFO misc.MiscSimulator : Timestep 225
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 225 took 1 ms
+INFO misc.MiscSimulator : Timestep 226
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 226 took 0 ms
+INFO misc.MiscSimulator : Timestep 227
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 227 took 0 ms
+INFO misc.MiscSimulator : Timestep 228
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 228 took 1 ms
+INFO misc.MiscSimulator : Timestep 229
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 229 took 0 ms
+INFO misc.MiscSimulator : Timestep 230
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 230 took 1 ms
+INFO misc.MiscSimulator : Timestep 231
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 231 took 0 ms
+INFO misc.MiscSimulator : Timestep 232
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 232 took 1 ms
+INFO misc.MiscSimulator : Timestep 233
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 233 took 1 ms
+INFO misc.MiscSimulator : Timestep 234
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 234 took 0 ms
+INFO misc.MiscSimulator : Timestep 235
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 235 took 0 ms
+INFO misc.MiscSimulator : Timestep 236
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 236 took 1 ms
+INFO misc.MiscSimulator : Timestep 237
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 237 took 1 ms
+INFO misc.MiscSimulator : Timestep 238
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 238 took 1 ms
+INFO misc.MiscSimulator : Timestep 239
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 239 took 0 ms
+INFO misc.MiscSimulator : Timestep 240
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 240 took 0 ms
+INFO misc.MiscSimulator : Timestep 241
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 241 took 0 ms
+INFO misc.MiscSimulator : Timestep 242
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 242 took 0 ms
+INFO misc.MiscSimulator : Timestep 243
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 243 took 1 ms
+INFO misc.MiscSimulator : Timestep 244
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 244 took 0 ms
+INFO misc.MiscSimulator : Timestep 245
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 245 took 0 ms
+INFO misc.MiscSimulator : Timestep 246
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 246 took 0 ms
+INFO misc.MiscSimulator : Timestep 247
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 247 took 0 ms
+INFO misc.MiscSimulator : Timestep 248
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 248 took 1 ms
+INFO misc.MiscSimulator : Timestep 249
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 249 took 1 ms
+INFO misc.MiscSimulator : Timestep 250
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 250 took 0 ms
+INFO misc.MiscSimulator : Timestep 251
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 251 took 0 ms
+INFO misc.MiscSimulator : Timestep 252
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 252 took 1 ms
+INFO misc.MiscSimulator : Timestep 253
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 253 took 0 ms
+INFO misc.MiscSimulator : Timestep 254
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 254 took 1 ms
+INFO misc.MiscSimulator : Timestep 255
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 255 took 0 ms
+INFO misc.MiscSimulator : Timestep 256
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 256 took 1 ms
+INFO misc.MiscSimulator : Timestep 257
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 257 took 0 ms
+INFO misc.MiscSimulator : Timestep 258
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 258 took 1 ms
+INFO misc.MiscSimulator : Timestep 259
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 259 took 0 ms
+INFO misc.MiscSimulator : Timestep 260
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 260 took 1 ms
+INFO misc.MiscSimulator : Timestep 261
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 261 took 0 ms
+INFO misc.MiscSimulator : Timestep 262
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 262 took 0 ms
+INFO misc.MiscSimulator : Timestep 263
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 263 took 0 ms
+INFO misc.MiscSimulator : Timestep 264
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 264 took 0 ms
+INFO misc.MiscSimulator : Timestep 265
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 265 took 0 ms
+INFO misc.MiscSimulator : Timestep 266
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 266 took 0 ms
+INFO misc.MiscSimulator : Timestep 267
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 267 took 0 ms
+INFO misc.MiscSimulator : Timestep 268
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 268 took 0 ms
+INFO misc.MiscSimulator : Timestep 269
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 269 took 1 ms
+INFO misc.MiscSimulator : Timestep 270
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 270 took 0 ms
+INFO misc.MiscSimulator : Timestep 271
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 271 took 1 ms
+INFO misc.MiscSimulator : Timestep 272
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 272 took 1 ms
+INFO misc.MiscSimulator : Timestep 273
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 273 took 1 ms
+INFO misc.MiscSimulator : Timestep 274
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 274 took 1 ms
+INFO misc.MiscSimulator : Timestep 275
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 275 took 0 ms
+INFO misc.MiscSimulator : Timestep 276
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 276 took 0 ms
+INFO misc.MiscSimulator : Timestep 277
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 277 took 0 ms
+INFO misc.MiscSimulator : Timestep 278
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 278 took 1 ms
+INFO misc.MiscSimulator : Timestep 279
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 279 took 1 ms
+INFO misc.MiscSimulator : Timestep 280
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 280 took 0 ms
+INFO misc.MiscSimulator : Timestep 281
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 281 took 0 ms
+INFO misc.MiscSimulator : Timestep 282
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 282 took 0 ms
+INFO misc.MiscSimulator : Timestep 283
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 283 took 0 ms
+INFO misc.MiscSimulator : Timestep 284
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 284 took 0 ms
+INFO misc.MiscSimulator : Timestep 285
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 285 took 1 ms
+INFO misc.MiscSimulator : Timestep 286
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 286 took 0 ms
+INFO misc.MiscSimulator : Timestep 287
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 287 took 0 ms
+INFO misc.MiscSimulator : Timestep 288
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 288 took 1 ms
+INFO misc.MiscSimulator : Timestep 289
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 289 took 0 ms
+INFO misc.MiscSimulator : Timestep 290
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 290 took 0 ms
+INFO misc.MiscSimulator : Timestep 291
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 291 took 0 ms
+INFO misc.MiscSimulator : Timestep 292
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 292 took 0 ms
+INFO misc.MiscSimulator : Timestep 293
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 293 took 1 ms
+INFO misc.MiscSimulator : Timestep 294
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 294 took 0 ms
+INFO misc.MiscSimulator : Timestep 295
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 295 took 0 ms
+INFO misc.MiscSimulator : Timestep 296
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 296 took 0 ms
+INFO misc.MiscSimulator : Timestep 297
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 297 took 0 ms
+INFO misc.MiscSimulator : Timestep 298
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 298 took 0 ms
+INFO misc.MiscSimulator : Timestep 299
+INFO misc.MiscSimulator : processExplodedGasStations for []
+INFO misc.MiscSimulator : Timestep 299 took 1 ms

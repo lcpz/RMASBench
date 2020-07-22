@@ -1,0 +1,135 @@
+INFO launcher : Processing jar directory: /home/lc2n18/t00/rmasbench-sequential/RSLB2/boot/../../roborescue/jars
+INFO launcher : Processing ../../roborescue/jars/human.jar
+INFO launcher : Processing ../../roborescue/jars/sample.jar
+WARN launcher : Class sample.CustomRegistryTestAgent$CustomEntityFactory not found
+INFO launcher : Processing ../../roborescue/jars/collapse.jar
+INFO launcher : Processing ../../roborescue/jars/misc.jar
+INFO launcher : Processing ../../roborescue/jars/clear.jar
+INFO launcher : Processing ../../roborescue/jars/maps.jar
+INFO launcher : Processing ../../roborescue/jars/resq-fire.jar
+INFO launcher : Processing ../../roborescue/jars/ignition.jar
+INFO launcher : Processing ../../roborescue/jars/handy.jar
+INFO launcher : Processing ../../roborescue/jars/standard.jar
+INFO launcher : Registered entity factory 'rescuecore2.standard.entities.StandardEntityFactory' with registry System
+INFO launcher : Registered property factory 'rescuecore2.standard.entities.StandardPropertyFactory' with registry System
+INFO launcher : Registered message factory 'rescuecore2.standard.messages.StandardMessageFactory' with registry System
+INFO launcher : Processing ../../roborescue/jars/gis2.jar
+INFO launcher : Processing ../../roborescue/jars/traffic3.jar
+INFO launcher : Processing ../../roborescue/jars/kernel.jar
+INFO launcher : Launching 1 instances of component 'traffic3.simulator.TrafficSimulator'...
+INFO launcher : Launching instance 1...
+INFO traffic3.simulator.TrafficSimulator : traffic3.simulator.TrafficSimulator@64758d42 connected
+INFO launcher : success
+INFO traffic3.simulator.TrafficSimulator : Unrecognised message type: urn:rescuecore2:messages.control:ks_aftershocks_info : TIMES = [], INTENSITIES = []
+INFO traffic3.simulator.TrafficSimulator : Timestep 1
+INFO traffic3.simulator.TrafficSimulator : Timestep 1 took 869 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 2
+INFO traffic3.simulator.TrafficSimulator : Timestep 2 took 404 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 3
+INFO traffic3.simulator.TrafficSimulator : Timestep 3 took 321 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 4
+INFO traffic3.simulator.TrafficSimulator : Timestep 4 took 193 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 5
+INFO traffic3.simulator.TrafficSimulator : Timestep 5 took 410 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 6
+INFO traffic3.simulator.TrafficSimulator : Timestep 6 took 176 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 7
+INFO traffic3.simulator.TrafficSimulator : Timestep 7 took 211 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 8
+INFO traffic3.simulator.TrafficSimulator : Timestep 8 took 233 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 9
+INFO traffic3.simulator.TrafficSimulator : Timestep 9 took 153 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 10
+INFO traffic3.simulator.TrafficSimulator : Timestep 10 took 198 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 11
+INFO traffic3.simulator.TrafficSimulator : Timestep 11 took 329 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 12
+INFO traffic3.simulator.TrafficSimulator : Timestep 12 took 132 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 13
+INFO traffic3.simulator.TrafficSimulator : Timestep 13 took 133 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 14
+INFO traffic3.simulator.TrafficSimulator : Timestep 14 took 221 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 15
+INFO traffic3.simulator.TrafficSimulator : Timestep 15 took 142 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 16
+INFO traffic3.simulator.TrafficSimulator : Timestep 16 took 121 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 17
+INFO traffic3.simulator.TrafficSimulator : Timestep 17 took 282 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 18
+INFO traffic3.simulator.TrafficSimulator : Timestep 18 took 128 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 19
+INFO traffic3.simulator.TrafficSimulator : Timestep 19 took 247 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 20
+INFO traffic3.simulator.TrafficSimulator : Timestep 20 took 243 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 21
+INFO traffic3.simulator.TrafficSimulator : Timestep 21 took 170 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 22
+INFO traffic3.simulator.TrafficSimulator : Timestep 22 took 245 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 23
+INFO traffic3.simulator.TrafficSimulator : Timestep 23 took 131 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 24
+INFO traffic3.simulator.TrafficSimulator : Timestep 24 took 193 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 25
+INFO traffic3.simulator.TrafficSimulator : Timestep 25 took 1608 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 26
+INFO traffic3.simulator.TrafficSimulator : Timestep 26 took 949 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 27
+INFO traffic3.simulator.TrafficSimulator : Timestep 27 took 521 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 28
+INFO traffic3.simulator.TrafficSimulator : Timestep 28 took 424 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 29
+INFO traffic3.simulator.TrafficSimulator : Timestep 29 took 319 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 30
+INFO traffic3.simulator.TrafficSimulator : Timestep 30 took 568 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 31
+INFO traffic3.simulator.TrafficSimulator : Timestep 31 took 266 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 32
+INFO traffic3.simulator.TrafficSimulator : Timestep 32 took 240 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 33
+INFO traffic3.simulator.TrafficSimulator : Timestep 33 took 230 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 34
+INFO traffic3.simulator.TrafficSimulator : Timestep 34 took 218 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 35
+INFO traffic3.simulator.TrafficSimulator : Timestep 35 took 240 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 36
+INFO traffic3.simulator.TrafficSimulator : Timestep 36 took 157 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 37
+INFO traffic3.simulator.TrafficSimulator : Timestep 37 took 153 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 38
+INFO traffic3.simulator.TrafficSimulator : Timestep 38 took 139 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 39
+INFO traffic3.simulator.TrafficSimulator : Timestep 39 took 176 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 40
+INFO traffic3.simulator.TrafficSimulator : Timestep 40 took 235 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 41
+INFO traffic3.simulator.TrafficSimulator : Timestep 41 took 239 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 42
+INFO traffic3.simulator.TrafficSimulator : Timestep 42 took 140 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 43
+INFO traffic3.simulator.TrafficSimulator : Timestep 43 took 156 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 44
+INFO traffic3.simulator.TrafficSimulator : Timestep 44 took 127 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 45
+INFO traffic3.simulator.TrafficSimulator : Timestep 45 took 179 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 46
+INFO traffic3.simulator.TrafficSimulator : Timestep 46 took 146 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 47
+INFO traffic3.simulator.TrafficSimulator : Timestep 47 took 125 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 48
+INFO traffic3.simulator.TrafficSimulator : Timestep 48 took 142 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 49
+INFO traffic3.simulator.TrafficSimulator : Timestep 49 took 140 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 50
+INFO traffic3.simulator.TrafficSimulator : Timestep 50 took 116 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 51
+INFO traffic3.simulator.TrafficSimulator : Timestep 51 took 146 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 52
+INFO traffic3.simulator.TrafficSimulator : Timestep 52 took 182 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 53
+INFO traffic3.simulator.TrafficSimulator : Timestep 53 took 153 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 54
+INFO traffic3.simulator.TrafficSimulator : Timestep 54 took 126 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 55
+INFO traffic3.simulator.TrafficSimulator : Timestep 55 took 125 ms
+INFO traffic3.simulator.TrafficSimulator : Timestep 56
+INFO traffic3.simulator.TrafficSimulator : Timestep 56 took 108 ms

@@ -1,0 +1,24 @@
+###    4 results/00-D-CCF/21agents
+
+time: 162.13333 [+-19.10473]
+nOnceBurned: 417.56667 [+-96.04525]
+average CPU time: 16.83333 [+-3.43708]
+original score: 9.86725 [+-2.27021]
+Capezzuto's score: 38.01553 [+-8.61118]
+
+###    9 results/02-DSA/21agents
+
+time: 111.46667 [+-13.98020]
+nOnceBurned: 186.53333 [+-70.60221]
+average CPU time: 19.96667 [+-4.14179]
+original score: 5.09261 [+-1.92833]
+Capezzuto's score: 15.85801 [+-6.03193]
+
+###   14 results/01-BMS/21agents
+
+time: 75.53333 [+-3.94708]
+nOnceBurned: 31.63333 [+-2.76666]
+average CPU time: 129.56667 [+-4.87344]
+original score: 0.99075 [+-0.00112]
+Capezzuto's score: 2.51296 [+-0.27862]
+

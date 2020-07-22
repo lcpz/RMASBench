@@ -1,9 +1,6 @@
 # Folder to store dependency sources
 dependencies
 
-# Non-distributable scenarios
-scenarios/**/*.xml
-
 # Local logging setup
 supplement/*.xml
 supplement/*.properties

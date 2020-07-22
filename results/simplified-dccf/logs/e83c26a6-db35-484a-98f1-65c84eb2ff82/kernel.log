@@ -1,0 +1,1314 @@
+INFO startup : Looking for gis, perception, communication, agent, simulator and viewer implementations
+INFO startup : Processing jar directory: /home/lc2n18/t00/rmasbench-sequential/RSLB2/boot/../../roborescue/jars
+INFO startup : Processing ../../roborescue/jars/human.jar
+INFO startup : Adding human.ControlledAgentGUI$ControlViewer to kernel.viewers
+INFO startup : Adding human.ControlledAmbulanceTeam to kernel.agents
+INFO startup : Adding human.ControlledFireBrigade to kernel.agents
+INFO startup : Adding human.ControlledPoliceForce to kernel.agents
+INFO startup : Processing ../../roborescue/jars/sample.jar
+INFO startup : Adding sample.SampleCivilian to kernel.agents
+INFO startup : Adding sample.SampleFireBrigade to kernel.agents
+INFO startup : Adding sample.SamplePoliceForce to kernel.agents
+INFO startup : Adding sample.SampleAmbulanceTeam to kernel.agents
+INFO startup : Adding sample.SampleCentre to kernel.agents
+INFO startup : Adding sample.ChannelTestAgent to kernel.agents
+INFO startup : Adding sample.CustomRegistryTestAgent to kernel.agents
+INFO startup : No INSTANCE field in class sample.CustomRegistryTestAgent$CustomEntityFactory
+INFO startup : Could not instantiate class sample.CustomRegistryTestAgent$CustomEntityFactory
+INFO startup : Adding sample.SampleAmbulanceTeam to kernel.agents
+INFO startup : Adding sample.SampleCentre to kernel.agents
+INFO startup : Adding sample.SampleCivilian to kernel.agents
+INFO startup : Adding sample.SampleFireBrigade to kernel.agents
+INFO startup : Adding sample.SamplePoliceForce to kernel.agents
+INFO startup : Adding sample.SampleSimulator to kernel.simulators
+INFO startup : Adding sample.SampleViewer to kernel.viewers
+INFO startup : Processing ../../roborescue/jars/collapse.jar
+INFO startup : Adding collapse.CollapseSimulator to kernel.simulators
+INFO startup : Adding collapse.CollapseSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/misc.jar
+INFO startup : Adding misc.MiscSimulator to kernel.simulators
+INFO startup : Adding misc.MiscSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/clear.jar
+INFO startup : Adding clear.ClearSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/maps.jar
+INFO startup : Processing ../../roborescue/jars/resq-fire.jar
+INFO startup : Adding firesimulator.FireSimulatorWrapper to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/ignition.jar
+INFO startup : Adding ignition.IgnitionSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/handy.jar
+INFO startup : Processing ../../roborescue/jars/standard.jar
+INFO startup : Adding rescuecore2.standard.components.StandardSimulator to kernel.simulators
+INFO startup : Adding rescuecore2.standard.components.StandardViewer to kernel.viewers
+INFO startup : Registered entity factory 'rescuecore2.standard.entities.StandardEntityFactory' with registry System
+INFO startup : Registered property factory 'rescuecore2.standard.entities.StandardPropertyFactory' with registry System
+INFO startup : Adding rescuecore2.standard.kernel.LineOfSightPerception to kernel.perception
+INFO startup : Adding rescuecore2.standard.kernel.StandardPerception to kernel.perception
+INFO startup : Adding rescuecore2.standard.kernel.comms.ChannelCommunicationModel to kernel.communication
+INFO startup : Adding rescuecore2.standard.kernel.comms.StandardCommunicationModel to kernel.communication
+INFO startup : Registered message factory 'rescuecore2.standard.messages.StandardMessageFactory' with registry System
+INFO startup : Processing ../../roborescue/jars/gis2.jar
+INFO startup : Adding gis2.GMLWorldModelCreator to kernel.gis
+INFO startup : Processing ../../roborescue/jars/traffic3.jar
+INFO startup : Adding traffic3.simulator.TrafficSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/kernel.jar
+INFO startup : Adding kernel.AbstractCommunicationModel to kernel.communication
+INFO startup : Adding kernel.RemoteGISWorldModelCreator to kernel.gis
+INFO kernel : Could not instantiate class human.ControlledAgentGUI$ControlViewer
+INFO kernel : Logging to /dev/null
+INFO kernel : Created channel: Voice channel 0 (range = 30000, max 1 messages of size 256)
+INFO kernel : Created channel: Radio channel 1 (bandwidth = 4000)
+INFO kernel : Created channel: Radio channel 2 (bandwidth = 4000)
+INFO kernel : Kernel initialised
+INFO kernel : Perception module: Standard perception
+INFO kernel : Communication module: Channel communication model
+INFO kernel : Command filter: kernel.ChainedCommandFilter@1a26eecb
+INFO kernel : Score function: Score graph
+INFO kernel : Termination condition: Timestep >= 300
+INFO kernel : Command collector: CompositeCommandCollector [Timed command collector]
+INFO kernel : Agent controlled entity registered: Fire brigade (1070219088)
+INFO kernel : Agent controlled entity registered: Fire brigade (136661338)
+INFO kernel : Agent controlled entity registered: Fire brigade (1043773543)
+INFO kernel : Agent controlled entity registered: Fire brigade (1409152335)
+INFO kernel : Agent controlled entity registered: Fire brigade (2038046627)
+INFO kernel : Agent controlled entity registered: Fire brigade (589358156)
+INFO kernel : Agent controlled entity registered: Fire brigade (984945369)
+INFO kernel : Agent controlled entity registered: Fire brigade (1934122924)
+INFO kernel : Agent controlled entity registered: Fire brigade (583462909)
+INFO kernel : Agent controlled entity registered: Fire brigade (1402871456)
+INFO kernel : Agent controlled entity registered: Fire brigade (1404378739)
+INFO kernel : Agent controlled entity registered: Fire brigade (966727488)
+INFO kernel : Agent controlled entity registered: Fire brigade (714890138)
+INFO kernel : Agent controlled entity registered: Fire brigade (1266875034)
+INFO kernel : Agent controlled entity registered: Fire brigade (1376706877)
+INFO kernel : Agent controlled entity registered: Fire brigade (1774821209)
+INFO kernel : Agent controlled entity registered: Fire brigade (301680672)
+INFO kernel : Agent controlled entity registered: Fire brigade (815155933)
+INFO kernel : Agent controlled entity registered: Fire station (64173)
+INFO kernel : Agent controlled entity registered: Fire brigade (629948237)
+INFO kernel : Agent controlled entity registered: Fire brigade (673035357)
+INFO kernel : Agent controlled entity registered: Fire brigade (1020339037)
+INFO kernel : Listening for connections on port 8372
+INFO kernel : Waiting for all agents, simulators and viewers to connect.
+INFO kernel : Connection timeout is 3600000ms
+INFO kernel : Waiting for 21 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Simulator 'misc.MiscSimulator' id 1 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36656 request ID 1) connected
+INFO kernel : Simulator 'firesimulator.FireSimulatorWrapper' id 2 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36658 request ID 1) connected
+INFO kernel : Simulator 'traffic3.simulator.TrafficSimulator' id 3 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36660 request ID 1) connected
+INFO kernel : Simulator 1 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36656 request ID 1) acknowledged
+INFO kernel : Simulator 3 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36660 request ID 1) acknowledged
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1070219088 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36662 request ID 1) connected
+INFO kernel : Agent 1070219088 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36662 request ID 1) acknowledged
+INFO kernel : Waiting for 20 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 136661338 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36664 request ID 2) connected
+INFO kernel : Agent 136661338 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36664 request ID 2) acknowledged
+INFO kernel : Waiting for 19 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1043773543 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36666 request ID 3) connected
+INFO kernel : Simulator 2 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36658 request ID 1) acknowledged
+INFO kernel : Agent 1043773543 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36666 request ID 3) acknowledged
+INFO kernel : Waiting for 18 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1409152335 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36668 request ID 4) connected
+INFO kernel : Agent 1409152335 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36668 request ID 4) acknowledged
+INFO kernel : Waiting for 17 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2038046627 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36670 request ID 5) connected
+INFO kernel : Agent 2038046627 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36670 request ID 5) acknowledged
+INFO kernel : Waiting for 16 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 589358156 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36672 request ID 6) connected
+INFO kernel : Agent 589358156 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36672 request ID 6) acknowledged
+INFO kernel : Waiting for 15 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 984945369 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36674 request ID 7) connected
+INFO kernel : Agent 984945369 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36674 request ID 7) acknowledged
+INFO kernel : Waiting for 14 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1934122924 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36676 request ID 8) connected
+INFO kernel : Agent 1934122924 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36676 request ID 8) acknowledged
+INFO kernel : Waiting for 13 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 583462909 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36678 request ID 9) connected
+INFO kernel : Agent 583462909 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36678 request ID 9) acknowledged
+INFO kernel : Waiting for 12 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1402871456 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36680 request ID 10) connected
+INFO kernel : Agent 1402871456 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36680 request ID 10) acknowledged
+INFO kernel : Waiting for 11 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1404378739 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36682 request ID 11) connected
+INFO kernel : Agent 1404378739 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36682 request ID 11) acknowledged
+INFO kernel : Waiting for 10 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 966727488 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36684 request ID 12) connected
+INFO kernel : Agent 966727488 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36684 request ID 12) acknowledged
+INFO kernel : Waiting for 9 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 714890138 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36686 request ID 13) connected
+INFO kernel : Agent 714890138 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36686 request ID 13) acknowledged
+INFO kernel : Waiting for 8 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1266875034 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36688 request ID 14) connected
+INFO kernel : Agent 1266875034 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36688 request ID 14) acknowledged
+INFO kernel : Waiting for 7 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1376706877 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36690 request ID 15) connected
+INFO kernel : Agent 1376706877 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36690 request ID 15) acknowledged
+INFO kernel : Waiting for 6 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1774821209 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36692 request ID 16) connected
+INFO kernel : Agent 1774821209 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36692 request ID 16) acknowledged
+INFO kernel : Waiting for 5 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 301680672 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36694 request ID 17) connected
+INFO kernel : Agent 301680672 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36694 request ID 17) acknowledged
+INFO kernel : Waiting for 4 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 815155933 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36696 request ID 18) connected
+INFO kernel : Agent 815155933 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36696 request ID 18) acknowledged
+INFO kernel : Waiting for 3 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 629948237 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36698 request ID 19) connected
+INFO kernel : Agent 629948237 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36698 request ID 19) acknowledged
+INFO kernel : Waiting for 2 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 673035357 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36700 request ID 20) connected
+INFO kernel : Agent 673035357 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36700 request ID 20) acknowledged
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1020339037 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36702 request ID 21) connected
+INFO kernel : Agent 1020339037 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36702 request ID 21) acknowledged
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.CenterAgent' id 64173 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36708 request ID 24) connected
+INFO kernel : Agent 64173 (TCPConnection: local port 8372, endpoint = /127.0.0.1:36708 request ID 24) acknowledged
+INFO kernel : Timestep 1
+INFO kernel : Ignoring early commands: 1 < 3
+INFO kernel : Timestep 1 complete
+INFO kernel : Timestep 2
+INFO kernel : Ignoring early commands: 2 < 3
+INFO kernel : Timestep 2 complete
+INFO kernel : Timestep 3
+INFO kernel : Timestep 3 complete
+INFO kernel : Timestep 4
+INFO kernel : Timestep 4 complete
+INFO kernel : Timestep 5
+INFO kernel : Timestep 5 complete
+INFO kernel : Timestep 6
+INFO kernel : Timestep 6 complete
+INFO kernel : Timestep 7
+INFO kernel : Timestep 7 complete
+INFO kernel : Timestep 8
+INFO kernel : Timestep 8 complete
+INFO kernel : Timestep 9
+INFO kernel : Timestep 9 complete
+INFO kernel : Timestep 10
+INFO kernel : Timestep 10 complete
+INFO kernel : Timestep 11
+INFO kernel : Timestep 11 complete
+INFO kernel : Timestep 12
+INFO kernel : Timestep 12 complete
+INFO kernel : Timestep 13
+INFO kernel : Timestep 13 complete
+INFO kernel : Timestep 14
+INFO kernel : Timestep 14 complete
+INFO kernel : Timestep 15
+INFO kernel : Timestep 15 complete
+INFO kernel : Timestep 16
+INFO kernel : Timestep 16 complete
+INFO kernel : Timestep 17
+INFO kernel : Timestep 17 complete
+INFO kernel : Timestep 18
+INFO kernel : Timestep 18 complete
+INFO kernel : Timestep 19
+INFO kernel : Timestep 19 complete
+INFO kernel : Timestep 20
+INFO kernel : Timestep 20 complete
+INFO kernel : Timestep 21
+INFO kernel : Timestep 21 complete
+INFO kernel : Timestep 22
+INFO kernel : Timestep 22 complete
+INFO kernel : Timestep 23
+INFO kernel : Timestep 23 complete
+INFO kernel : Timestep 24
+INFO kernel : Timestep 24 complete
+INFO kernel : Timestep 25
+INFO kernel : Timestep 25 complete
+INFO kernel : Timestep 26
+INFO kernel : Timestep 26 complete
+INFO kernel : Timestep 27
+INFO kernel : Timestep 27 complete
+INFO kernel : Timestep 28
+INFO kernel : Timestep 28 complete
+INFO kernel : Timestep 29
+INFO kernel : Timestep 29 complete
+INFO kernel : Timestep 30
+INFO kernel : Timestep 30 complete
+INFO kernel : Timestep 31
+INFO kernel : Timestep 31 complete
+INFO kernel : Timestep 32
+INFO kernel : Timestep 32 complete
+INFO kernel : Timestep 33
+INFO kernel : Timestep 33 complete
+INFO kernel : Timestep 34
+INFO kernel : Timestep 34 complete
+INFO kernel : Timestep 35
+INFO kernel : Timestep 35 complete
+INFO kernel : Timestep 36
+INFO kernel : Timestep 36 complete
+INFO kernel : Timestep 37
+INFO kernel : Timestep 37 complete
+INFO kernel : Timestep 38
+INFO kernel : Timestep 38 complete
+INFO kernel : Timestep 39
+INFO kernel : Timestep 39 complete
+INFO kernel : Timestep 40
+INFO kernel : Timestep 40 complete
+INFO kernel : Timestep 41
+INFO kernel : Timestep 41 complete
+INFO kernel : Timestep 42
+INFO kernel : Timestep 42 complete
+INFO kernel : Timestep 43
+INFO kernel : Timestep 43 complete
+INFO kernel : Timestep 44
+INFO kernel : Timestep 44 complete
+INFO kernel : Timestep 45
+INFO kernel : Timestep 45 complete
+INFO kernel : Timestep 46
+INFO kernel : Timestep 46 complete
+INFO kernel : Timestep 47
+INFO kernel : Timestep 47 complete
+INFO kernel : Timestep 48
+INFO kernel : Timestep 48 complete
+INFO kernel : Timestep 49
+INFO kernel : Timestep 49 complete
+INFO kernel : Timestep 50
+INFO kernel : Timestep 50 complete
+INFO kernel : Timestep 51
+INFO kernel : Timestep 51 complete
+INFO kernel : Timestep 52
+INFO kernel : Timestep 52 complete
+INFO kernel : Timestep 53
+INFO kernel : Timestep 53 complete
+INFO kernel : Timestep 54
+INFO kernel : Timestep 54 complete
+INFO kernel : Timestep 55
+INFO kernel : Timestep 55 complete
+INFO kernel : Timestep 56
+INFO kernel : Timestep 56 complete
+INFO kernel : Timestep 57
+INFO kernel : Timestep 57 complete
+INFO kernel : Timestep 58
+INFO kernel : Timestep 58 complete
+INFO kernel : Timestep 59
+INFO kernel : Timestep 59 complete
+INFO kernel : Timestep 60
+INFO kernel : Timestep 60 complete
+INFO kernel : Timestep 61
+INFO kernel : Timestep 61 complete
+INFO kernel : Timestep 62
+INFO kernel : Timestep 62 complete
+INFO kernel : Timestep 63
+INFO kernel : Timestep 63 complete
+INFO kernel : Timestep 64
+INFO kernel : Timestep 64 complete
+INFO kernel : Timestep 65
+INFO kernel : Timestep 65 complete
+INFO kernel : Timestep 66
+INFO kernel : Timestep 66 complete
+INFO kernel : Timestep 67
+INFO kernel : Timestep 67 complete
+INFO kernel : Timestep 68
+INFO kernel : Timestep 68 complete
+INFO kernel : Timestep 69
+INFO kernel : Timestep 69 complete
+INFO kernel : Timestep 70
+INFO kernel : Timestep 70 complete
+INFO kernel : Timestep 71
+INFO kernel : Timestep 71 complete
+INFO kernel : Timestep 72
+INFO kernel : Timestep 72 complete
+INFO kernel : Timestep 73
+INFO kernel : Timestep 73 complete
+INFO kernel : Timestep 74
+INFO kernel : Timestep 74 complete
+INFO kernel : Timestep 75
+INFO kernel : Timestep 75 complete
+INFO kernel : Timestep 76
+INFO kernel : Timestep 76 complete
+INFO kernel : Timestep 77
+INFO kernel : Timestep 77 complete
+INFO kernel : Timestep 78
+INFO kernel : Timestep 78 complete
+INFO kernel : Timestep 79
+INFO kernel : Timestep 79 complete
+INFO kernel : Timestep 80
+INFO kernel : Timestep 80 complete
+INFO kernel : Timestep 81
+INFO kernel : Timestep 81 complete
+INFO kernel : Timestep 82
+INFO kernel : Timestep 82 complete
+INFO kernel : Timestep 83
+INFO kernel : Timestep 83 complete
+INFO kernel : Timestep 84
+INFO kernel : Timestep 84 complete
+INFO kernel : Timestep 85
+INFO kernel : Timestep 85 complete
+INFO kernel : Timestep 86
+INFO kernel : Timestep 86 complete
+INFO kernel : Timestep 87
+INFO kernel : Timestep 87 complete
+INFO kernel : Timestep 88
+INFO kernel : Timestep 88 complete
+INFO kernel : Timestep 89
+INFO kernel : Timestep 89 complete
+INFO kernel : Timestep 90
+INFO kernel : Timestep 90 complete
+INFO kernel : Timestep 91
+INFO kernel : Timestep 91 complete
+INFO kernel : Timestep 92
+INFO kernel : Timestep 92 complete
+INFO kernel : Timestep 93
+INFO kernel : Timestep 93 complete
+INFO kernel : Timestep 94
+INFO kernel : Timestep 94 complete
+INFO kernel : Timestep 95
+INFO kernel : Timestep 95 complete
+INFO kernel : Timestep 96
+INFO kernel : Timestep 96 complete
+INFO kernel : Timestep 97
+INFO kernel : Timestep 97 complete
+INFO kernel : Timestep 98
+INFO kernel : Timestep 98 complete
+INFO kernel : Timestep 99
+INFO kernel : Timestep 99 complete
+INFO kernel : Timestep 100
+INFO kernel : Timestep 100 complete
+INFO kernel : Timestep 101
+INFO kernel : Timestep 101 complete
+INFO kernel : Timestep 102
+INFO kernel : Timestep 102 complete
+INFO kernel : Timestep 103
+INFO kernel : Timestep 103 complete
+INFO kernel : Timestep 104
+INFO kernel : Timestep 104 complete
+INFO kernel : Timestep 105
+INFO kernel : Timestep 105 complete
+INFO kernel : Timestep 106
+INFO kernel : Timestep 106 complete
+INFO kernel : Timestep 107
+INFO kernel : Timestep 107 complete
+INFO kernel : Timestep 108
+INFO kernel : Timestep 108 complete
+INFO kernel : Timestep 109
+INFO kernel : Timestep 109 complete
+INFO kernel : Timestep 110
+INFO kernel : Timestep 110 complete
+INFO kernel : Timestep 111
+INFO kernel : Timestep 111 complete
+INFO kernel : Timestep 112
+INFO kernel : Timestep 112 complete
+INFO kernel : Timestep 113
+INFO kernel : Timestep 113 complete
+INFO kernel : Timestep 114
+INFO kernel : Timestep 114 complete
+INFO kernel : Timestep 115
+INFO kernel : Timestep 115 complete
+INFO kernel : Timestep 116
+INFO kernel : Timestep 116 complete
+INFO kernel : Timestep 117
+INFO kernel : Timestep 117 complete
+INFO kernel : Timestep 118
+INFO kernel : Timestep 118 complete
+INFO kernel : Timestep 119
+INFO kernel : Timestep 119 complete
+INFO kernel : Timestep 120
+INFO kernel : Timestep 120 complete
+INFO kernel : Timestep 121
+INFO kernel : Timestep 121 complete
+INFO kernel : Timestep 122
+INFO kernel : Timestep 122 complete
+INFO kernel : Timestep 123
+INFO kernel : Timestep 123 complete
+INFO kernel : Timestep 124
+INFO kernel : Timestep 124 complete
+INFO kernel : Timestep 125
+INFO kernel : Timestep 125 complete
+INFO kernel : Timestep 126
+INFO kernel : Timestep 126 complete
+INFO kernel : Timestep 127
+INFO kernel : Timestep 127 complete
+INFO kernel : Timestep 128
+INFO kernel : Timestep 128 complete
+INFO kernel : Timestep 129
+INFO kernel : Timestep 129 complete
+INFO kernel : Timestep 130
+INFO kernel : Timestep 130 complete
+INFO kernel : Timestep 131
+INFO kernel : Timestep 131 complete
+INFO kernel : Timestep 132
+INFO kernel : Timestep 132 complete
+INFO kernel : Timestep 133
+INFO kernel : Timestep 133 complete
+INFO kernel : Timestep 134
+INFO kernel : Timestep 134 complete
+INFO kernel : Timestep 135
+INFO kernel : Timestep 135 complete
+INFO kernel : Timestep 136
+INFO kernel : Timestep 136 complete
+INFO kernel : Timestep 137
+INFO kernel : Timestep 137 complete
+INFO kernel : Timestep 138
+INFO kernel : Timestep 138 complete
+INFO kernel : Timestep 139
+INFO kernel : Timestep 139 complete
+INFO kernel : Timestep 140
+INFO kernel : Timestep 140 complete
+INFO kernel : Timestep 141
+INFO kernel : Timestep 141 complete
+INFO kernel : Timestep 142
+INFO kernel : Timestep 142 complete
+INFO kernel : Timestep 143
+INFO kernel : Timestep 143 complete
+INFO kernel : Timestep 144
+INFO kernel : Timestep 144 complete
+INFO kernel : Timestep 145
+INFO kernel : Timestep 145 complete
+INFO kernel : Timestep 146
+INFO kernel : Timestep 146 complete
+INFO kernel : Timestep 147
+INFO kernel : Timestep 147 complete
+INFO kernel : Timestep 148
+INFO kernel : Timestep 148 complete
+INFO kernel : Timestep 149
+INFO kernel : Timestep 149 complete
+INFO kernel : Timestep 150
+INFO kernel : Timestep 150 complete
+INFO kernel : Timestep 151
+INFO kernel : Timestep 151 complete
+INFO kernel : Timestep 152
+INFO kernel : Timestep 152 complete
+INFO kernel : Timestep 153
+INFO kernel : Timestep 153 complete
+INFO kernel : Timestep 154
+INFO kernel : Timestep 154 complete
+INFO kernel : Timestep 155
+INFO kernel : Timestep 155 complete
+INFO kernel : Timestep 156
+INFO kernel : Timestep 156 complete
+INFO kernel : Timestep 157
+INFO kernel : Timestep 157 complete
+INFO kernel : Timestep 158
+INFO kernel : Timestep 158 complete
+INFO kernel : Timestep 159
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 159, Target = 55170, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 159 complete
+INFO kernel : Timestep 160
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 160, Target = 55170, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 160 complete
+INFO kernel : Timestep 161
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 161, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 50397, 64529, 64528], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 161 complete
+INFO kernel : Timestep 162
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 162, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 50397, 64529, 64528], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 162 complete
+INFO kernel : Timestep 163
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 163, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 50397, 64529, 64528], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 163 complete
+INFO kernel : Timestep 164
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 164, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 50397, 64529, 64528], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 164 complete
+INFO kernel : Timestep 165
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 165, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 50397, 64529, 64528], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 165 complete
+INFO kernel : Timestep 166
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 166, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 50397, 64529, 64528], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 166 complete
+INFO kernel : Timestep 167
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 167, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 167 complete
+INFO kernel : Timestep 168
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 168, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 168 complete
+INFO kernel : Timestep 169
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 169, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 34853, 64537, 64538], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 169 complete
+INFO kernel : Timestep 170
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 170, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 34853, 64537, 64538], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 170 complete
+INFO kernel : Timestep 171
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 171, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 171 complete
+INFO kernel : Timestep 172
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 172, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 172 complete
+INFO kernel : Timestep 173
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 173, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 173 complete
+INFO kernel : Timestep 174
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 174, Target = 65142, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 174 complete
+INFO kernel : Timestep 175
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 175, Target = 65142, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 175 complete
+INFO kernel : Timestep 176
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 176, Target = 65142, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 176 complete
+INFO kernel : Timestep 177
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 177, Target = 65141, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 177 complete
+INFO kernel : Timestep 178
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 178, Target = 65141, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 178 complete
+INFO kernel : Timestep 179
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 179, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 179 complete
+INFO kernel : Timestep 180
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 180, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 180 complete
+INFO kernel : Timestep 181
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 181, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 181 complete
+INFO kernel : Timestep 182
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 182, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 182 complete
+INFO kernel : Timestep 183
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 183, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 183 complete
+INFO kernel : Timestep 184
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 184, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 184 complete
+INFO kernel : Timestep 185
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 185, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 185 complete
+INFO kernel : Timestep 186
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 186, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 186 complete
+INFO kernel : Timestep 187
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 187, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 187 complete
+INFO kernel : Timestep 188
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 188, Target = 21290, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 188, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 188 complete
+INFO kernel : Timestep 189
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 189, Target = 28776, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 189, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 189 complete
+INFO kernel : Timestep 190
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 190, Target = 46010, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 190, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 190 complete
+INFO kernel : Timestep 191
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 191, Target = 33347, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 191, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 191 complete
+INFO kernel : Timestep 192
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 192, Target = 64544, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 192, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 192 complete
+INFO kernel : Timestep 193
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 193, Target = 46010, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 193, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 193 complete
+INFO kernel : Timestep 194
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 194, Target = 45946, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 194, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 194 complete
+INFO kernel : Timestep 195
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 195, Target = 45946, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 195, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 195 complete
+INFO kernel : Timestep 196
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 196, Target = 28776, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 196, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 196 complete
+INFO kernel : Timestep 197
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 197, Target = 33347, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 197, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 197 complete
+INFO kernel : Timestep 198
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 198, Target = 30365, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 198, Target = 50631, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 198 complete
+INFO kernel : Timestep 199
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 199, Target = 30365, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 199, Target = 58203, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 199 complete
+INFO kernel : Timestep 200
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 200, Target = 30365, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 200, Target = 65141, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 200 complete
+INFO kernel : Timestep 201
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 201, Target = 30365, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 201, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 201 complete
+INFO kernel : Timestep 202
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 202, Target = 30365, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 202, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 202 complete
+INFO kernel : Timestep 203
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 203, Target = 33347, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 203, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 203 complete
+INFO kernel : Timestep 204
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 204, Target = 45946, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 204, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 204 complete
+INFO kernel : Timestep 205
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 205, Target = 65114, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 205, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 205 complete
+INFO kernel : Timestep 206
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 206, Target = 28776, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 206, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 206 complete
+INFO kernel : Timestep 207
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 207, Target = 46010, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 207, Path = [5559, 11182, 542, 20114, 20102, 26132, 27025, 27037, 2353, 10165, 3652, 10156, 6608, 10183, 3105, 10174, 4580, 10273, 6727, 10264, 6001, 10291, 2551, 10282, 3043, 24112, 24100, 45135], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 207 complete
+INFO kernel : Timestep 208
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 208, Target = 33347, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 208, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 16366, 473, 16348, 62712, 16312, 3538, 10669, 6262, 10795, 6428, 10786, 4844, 47543, 47531], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 208 complete
+INFO kernel : Timestep 209
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 209, Target = 22030, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 209, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 16366, 473, 16348, 62712, 16312, 3538, 10669, 6262, 10795, 6428, 10786, 4844, 47543, 47531], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 209 complete
+INFO kernel : Timestep 210
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 210, Target = 22030, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 210, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 16366, 473, 16348, 62712, 15673, 1206, 16096, 2799, 28610, 28598], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 210 complete
+INFO kernel : Timestep 211
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 211, Target = 33347, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 211, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 211 complete
+INFO kernel : Timestep 212
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 212, Target = 47411, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 212, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 212 complete
+INFO kernel : Timestep 213
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 213, Target = 46010, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 213, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 213 complete
+INFO kernel : Timestep 214
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 214, Target = 65114, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 214, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 214 complete
+INFO kernel : Timestep 215
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 215, Target = 33347, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 215, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 215 complete
+INFO kernel : Timestep 216
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 216, Target = 65104, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 216, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 216 complete
+INFO kernel : Timestep 217
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 217, Target = 47411, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 217, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 217 complete
+INFO kernel : Timestep 218
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 218, Target = 47411, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 218, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 218 complete
+INFO kernel : Timestep 219
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 219, Target = 47411, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 219, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 219 complete
+INFO kernel : Timestep 220
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 220, Target = 33347, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 220, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 220 complete
+INFO kernel : Timestep 221
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 221, Target = 47411, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 221, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 221 complete
+INFO kernel : Timestep 222
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 222, Target = 56660, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 222, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 222 complete
+INFO kernel : Timestep 223
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 223, Target = 46010, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 223, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 223 complete
+INFO kernel : Timestep 224
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 224, Target = 21290, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 224, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 224 complete
+INFO kernel : Timestep 225
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 225, Target = 21290, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 225, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 225 complete
+INFO kernel : Timestep 226
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 226, Target = 33347, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 226, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 226 complete
+INFO kernel : Timestep 227
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 227, Target = 64544, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 227, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 227 complete
+INFO kernel : Timestep 228
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 228, Target = 19154, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 228, Target = 64545, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 228, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 228 complete
+INFO kernel : Timestep 229
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 229, Target = 19154, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 229, Target = 39864, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 229, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 229 complete
+INFO kernel : Timestep 230
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 230, Target = 19154, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 230, Target = 65104, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 230, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 230 complete
+INFO kernel : Timestep 231
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 231, Target = 19154, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 231, Path = [62903, 11020, 11029, 2212, 11011, 63211, 28355, 28343], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 231, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 231 complete
+INFO kernel : Timestep 232
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 232, Target = 19154, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 232, Path = [62903, 11020, 11029, 2212, 11011, 63211, 28355, 28343], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 232, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 232 complete
+INFO kernel : Timestep 233
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 233, Target = 35096, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 984945369, Time = 233, Target = 64545, Water = 500: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 233, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 233 complete
+INFO kernel : Timestep 234
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 234, Target = 35096, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 234, Path = [62903, 14791, 5146, 14782, 2221, 14773, 6697, 14764, 3522, 14746, 140, 14755, 4395, 17680, 5902, 17689, 2203, 45052, 45040], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 234, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 234 complete
+INFO kernel : Timestep 235
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 235, Target = 35096, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 235, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13135, 827, 13126, 2062, 13153, 5080, 13144, 6649, 13171, 3716, 17653, 448, 17644, 1532, 17635, 4607, 44834, 44822, 27081], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 235, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 235 complete
+INFO kernel : Timestep 236
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 236, Target = 35096, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 236, Path = [62903, 14791, 5146, 14782, 2221, 14773, 6697, 14764, 3522, 14746, 140, 14755, 4395, 17671, 932, 17662, 6775, 17599, 3052, 35108, 35096], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 236, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 236 complete
+INFO kernel : Timestep 237
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 237, Target = 35096, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 237, Path = [62903, 14791, 5146, 14782, 2221, 14773, 6697, 14764, 3522, 14746, 140, 14755, 4395, 17671, 932, 17662, 6775, 17599, 3052, 35108, 35096], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 237, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 237 complete
+INFO kernel : Timestep 238
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 238, Target = 35096, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 238, Path = [62903, 14791, 5146, 14782, 2221, 14773, 6697, 14764, 3522, 14746, 140, 14755, 4395, 17671, 932, 17662, 6775, 17599, 3052, 35108, 35096], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 238, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 238 complete
+INFO kernel : Timestep 239
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 239, Target = 43496, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 239, Path = [62903, 14791, 5146, 14782, 2221, 14773, 6697, 14764, 3522, 14746, 140, 14755, 4395, 17671, 932, 17662, 6775, 17599, 3052, 17608, 5383, 43508, 43496], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 239, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 239 complete
+INFO kernel : Timestep 240
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 714890138, Time = 240, Target = 60757, Water = 500: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 240, Path = [62903, 14791, 5146, 14782, 2221, 14773, 6697, 14764, 3522, 14746, 140, 14755, 4395, 17671, 932, 17662, 6775, 17599, 3052, 17608, 5383, 17617, 2260, 60769, 60757], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 240, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 11785, 11758, 4646, 55795, 55783, 63026, 19047], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 240 complete
+INFO kernel : Timestep 241
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 241, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 52564, 52552], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 241, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 8977, 6672, 8968, 11569, 5119, 11578, 6931, 18256, 3602, 16033, 2242, 16042, 5660, 57842, 63806], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 673035357, Time = 241, Target = 65145, Water = 500: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 241 complete
+INFO kernel : Timestep 242
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 242, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 50693, 50681, 64995], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 242, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 50693, 50681, 64995], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 242, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 32934, 64175, 64176], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 242 complete
+INFO kernel : Timestep 243
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 243, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 50693, 50681, 64995], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 243, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 50693, 50681, 64995], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 243, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 32934, 64175, 64176], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 243 complete
+INFO kernel : Timestep 244
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 244, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 14386, 6949, 14377, 14368, 4771, 16240, 5298, 12001, 2635, 18522, 18510], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 244, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 14386, 6949, 14377, 14368, 4771, 16240, 5298, 12001, 2635, 18522, 18510], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 244, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 32934, 64175, 64176], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 244 complete
+INFO kernel : Timestep 245
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 245, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 31847, 31835], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 245, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 31847, 31835], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 245, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 32934, 64175, 64176], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 245 complete
+INFO kernel : Timestep 246
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 246, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 31847, 31835, 54405], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 246, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 31847, 31835, 54405], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 246, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 32934, 64175, 64176], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 246 complete
+INFO kernel : Timestep 247
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 247, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 31847, 31835, 54405], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 247, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 31847, 31835, 54405], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 247, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 32934, 64175, 64176], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 247 complete
+INFO kernel : Timestep 248
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 248, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 31847, 31835, 54405], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 248, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 31847, 31835, 54405], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 248, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 32934, 64175, 64176], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 248 complete
+INFO kernel : Timestep 249
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 249, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 14386, 6949, 53610, 53598, 64998], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 249, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 14386, 6949, 53610, 53598, 64998], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 249, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507, 64508], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 249 complete
+INFO kernel : Timestep 250
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 250, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 15394, 63086, 19695], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 250, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 15394, 63086, 19695], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 250, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507, 64508], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 250 complete
+INFO kernel : Timestep 251
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 251, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 15394, 63086, 19695], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 251, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 15394, 63086, 19695], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 251, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507, 64508], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 251 complete
+INFO kernel : Timestep 252
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 252, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 15394, 63086, 19695], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 252, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 15394, 63086, 19695], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 252, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 252 complete
+INFO kernel : Timestep 253
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 253, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 15394, 63086, 19695], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 253, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 15358, 6958, 15376, 1005, 15394, 63086, 19695], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 253, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 253 complete
+INFO kernel : Timestep 254
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 254, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 14386, 6949, 14377, 14368, 4771, 16231, 973, 56714, 56702], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 254, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 14386, 6949, 14377, 14368, 4771, 16231, 973, 56714, 56702], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 254, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 254 complete
+INFO kernel : Timestep 255
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 255, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 14386, 6949, 14377, 14368, 4771, 16231, 973, 56714, 56702], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 255, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 14386, 6949, 14377, 14368, 4771, 16231, 973, 56714, 56702], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 255, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 255 complete
+INFO kernel : Timestep 256
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 256, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 38147, 38135], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 256, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 38147, 38135], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 256, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 256 complete
+INFO kernel : Timestep 257
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 257, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 38147, 38135], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 257, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 38147, 38135], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 257, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 257 complete
+INFO kernel : Timestep 258
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 258, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 38147, 38135], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 258, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 14395, 1012, 38147, 38135], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 258, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 258 complete
+INFO kernel : Timestep 259
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 259, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 259, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 259, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 259 complete
+INFO kernel : Timestep 260
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 260, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 260, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 260, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 260 complete
+INFO kernel : Timestep 261
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 261, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696, 29266], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 261, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696, 29266], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 261, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 261 complete
+INFO kernel : Timestep 262
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 262, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 11443, 11434, 850, 4422, 11416, 1564, 10876, 3909, 58544, 64978, 64979, 63798], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 262, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 11443, 11434, 850, 4422, 11416, 1564, 10876, 3909, 58544, 64978, 64979, 63798], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 262, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 262 complete
+INFO kernel : Timestep 263
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 263, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 16186, 6972, 16267, 5589, 16276, 5401, 21567, 21555], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 263, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 16186, 6972, 16267, 5589, 16276, 5401, 21567, 21555], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 263, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 263 complete
+INFO kernel : Timestep 264
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 264, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 16186, 6972, 16267, 5589, 16276, 5401, 21567, 21555], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 264, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 16186, 6972, 16267, 5589, 16276, 5401, 21567, 21555], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 264, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 264 complete
+INFO kernel : Timestep 265
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 265, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 11443, 11434, 850, 4422, 11416, 1564, 41281, 63800], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 265, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 14170, 4290, 14125, 4229, 60724, 64136], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 265, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 265 complete
+INFO kernel : Timestep 266
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 266, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 11443, 11434, 850, 4422, 11416, 1564, 41281, 63800], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 266, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 14170, 4290, 14125, 4229, 60724, 64136], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 266, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 266 complete
+INFO kernel : Timestep 267
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 267, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 7438, 2772, 7447, 4664, 7420, 5032, 27955, 27943], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 267, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 14170, 4290, 14125, 4229, 60724, 64136], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 267, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 267 complete
+INFO kernel : Timestep 268
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 268, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 268, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 268, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 16744, 16798, 4139, 16780, 3399, 16834, 16816, 4730, 16870, 16852, 2950, 16618, 6830, 32025, 64326, 64329, 64330], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 268 complete
+INFO kernel : Timestep 269
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 269, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 269, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 269, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 16744, 16798, 4139, 16780, 3399, 16834, 16816, 4730, 16870, 16852, 2950, 16618, 6830, 32025, 64326, 64329, 64330], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 269 complete
+INFO kernel : Timestep 270
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 270, Target = 41106, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 270, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 270, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 270, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 16744, 16798, 4139, 16780, 3399, 16834, 16816, 4730, 16870, 16852, 2950, 16618, 6830, 32025, 64326, 64329, 64330], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 270 complete
+INFO kernel : Timestep 271
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 271, Target = 41106, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 271, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 271, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 271, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 16744, 16798, 4139, 16780, 3399, 16834, 16816, 4730, 16870, 16852, 2950, 16618, 6830, 32025, 64326, 64329], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 271 complete
+INFO kernel : Timestep 272
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 272, Target = 41106, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 272, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 272, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 272, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 272 complete
+INFO kernel : Timestep 273
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 273, Target = 41106, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 273, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 273, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 273, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 273 complete
+INFO kernel : Timestep 274
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 274, Target = 41106, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 274, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696, 29266], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 274, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 14341, 3257, 14332, 2430, 35708, 35696, 29266], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 274, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 274 complete
+INFO kernel : Timestep 275
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 275, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 275, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 14170, 4290, 14125, 4229, 14116, 2943, 33209, 64143], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 275, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 14170, 4290, 14125, 4229, 14116, 2943, 33209, 64143], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 275, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 275 complete
+INFO kernel : Timestep 276
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 276, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 276, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 14170, 4290, 14125, 4229, 14116, 2943, 33209, 64143], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 276, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 14170, 4290, 14125, 4229, 14116, 2943, 33209, 64143], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 276, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 276 complete
+INFO kernel : Timestep 277
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 277, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 277, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 33501, 64489, 64490], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 277, Path = [3014, 17068, 17077, 4123, 16942, 16951, 6608, 10156, 3652, 10165, 2353, 27037, 27025, 26132, 20102, 20114, 542, 11182, 5559, 11191, 4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 10759, 2603, 31497, 31485], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 277, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 277 complete
+INFO kernel : Timestep 278
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 278, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 278, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 33501, 64489, 64490], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 278, Path = [3014, 17068, 17077, 4123, 16942, 16951, 6608, 10156, 3652, 10165, 2353, 27037, 27025, 26132, 20102, 20114, 542, 11182, 5559, 11191, 4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 10759, 2603, 31497, 31485], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 278, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 278 complete
+INFO kernel : Timestep 279
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 279, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 279, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 33501, 64489, 64490], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 279, Path = [3014, 17068, 17077, 4123, 16942, 16951, 6608, 10156, 3652, 10165, 2353, 27037, 27025, 26132, 20102, 20114, 542, 11182, 5559, 11191, 4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 10759, 2603, 31497, 31485], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 279, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 279 complete
+INFO kernel : Timestep 280
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 280, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 280, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 33501, 64489, 64490], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 280, Path = [3014, 17068, 17077, 4123, 16942, 16951, 6608, 10156, 3652, 10165, 2353, 27037, 27025, 26132, 20102, 20114, 542, 11182, 5559, 11191, 4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 10759, 2603, 31497, 31485], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 280, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 62946, 64150], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 280 complete
+INFO kernel : Timestep 281
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 1409152335, Time = 281, Target = 45156, Water = 500: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 281, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 281, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 33501, 64489, 64490], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 281, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 16060, 4283, 16051, 5164, 16006, 6704, 15997, 56, 15340, 6513, 33501, 64489, 64490], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 281, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 16744, 16798, 4139, 16780, 3399, 16834, 16816, 4730, 15295, 2587, 23056, 64161, 64160, 64158], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 281 complete
+INFO kernel : Timestep 282
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 1409152335, Time = 282, Target = 45156, Water = 500: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 282, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 282, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 8977, 6672, 8968, 11569, 5119, 11578, 6931, 18256, 3602, 16033, 2242, 39668, 39656, 48529], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 282, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 8977, 6672, 8968, 11569, 5119, 11578, 6931, 18256, 3602, 16033, 2242, 39668, 39656, 48529], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 282, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 16744, 16798, 4139, 16780, 3399, 16834, 16816, 4730, 16870, 16852, 2950, 16618, 6830, 16600, 4065, 62942, 64169, 64168], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 282 complete
+INFO kernel : Timestep 283
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 1409152335, Time = 283, Target = 45156, Water = 500: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 583462909, Time = 283, Target = 45156, Water = 500: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 283, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 8977, 6672, 8968, 11569, 5119, 11578, 6931, 18256, 3602, 16033, 2242, 39668, 39656, 48529], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 283, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 8977, 6672, 8968, 11569, 5119, 11578, 6931, 18256, 3602, 16033, 2242, 39668, 39656, 48529], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 283, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 16744, 16798, 4139, 16780, 3399, 16834, 16816, 4730, 16870, 16852, 2950, 16618, 6830, 16600, 4065, 62942, 64169, 64168], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 283 complete
+INFO kernel : Timestep 284
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 284, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778, 63771], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 284, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778, 63771], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 284, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778, 63771], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 284, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778, 63771], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 284, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 15331, 7135, 44177, 64185], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 284 complete
+INFO kernel : Timestep 285
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 285, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 21490, 21478], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 285, Path = [12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 21490, 21478], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 285, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 11452, 11461, 3981, 11470, 5992, 14215, 3811, 15025, 7238, 15079, 713, 15061, 5214, 15115, 1364, 15097, 2644, 14710, 6590, 46964, 46952], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 285, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 11452, 11461, 3981, 11470, 5992, 14215, 3811, 15025, 7238, 15079, 713, 15061, 5214, 15115, 1364, 15097, 2644, 14710, 6590, 46964, 46952], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 285, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 16744, 16798, 4139, 16780, 3399, 16834, 16816, 4730, 16870, 16852, 2950, 16618, 6830, 16600, 4065, 62942, 64169, 64168], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 285 complete
+INFO kernel : Timestep 286
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 286, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63688], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 286, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63688], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 286, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 11452, 11461, 3981, 11470, 5992, 14215, 3811, 15025, 7238, 15079, 713, 15061, 5214, 15115, 1364, 15097, 2644, 15151, 6665, 15133, 95, 15187, 6599, 15169, 1190, 45211, 64859, 64849, 64856], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 286, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 11452, 11461, 3981, 11470, 5992, 14215, 3811, 15025, 7238, 15079, 713, 15061, 5214, 15115, 1364, 15097, 2644, 15151, 6665, 15133, 95, 15187, 6599, 15169, 1190, 45211, 64859, 64849, 64856], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 286, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 11524, 2371, 9193, 2380, 8797, 4213, 8788, 44912, 44900], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 286 complete
+INFO kernel : Timestep 287
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 287, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63688], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 287, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63688], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 287, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 287, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 287, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 287 complete
+INFO kernel : Timestep 288
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 288, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63688], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 288, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63688], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 288, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 288, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 288, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 288 complete
+INFO kernel : Timestep 289
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 289, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63584], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 289, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63584], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 289, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 289, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 289, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 289 complete
+INFO kernel : Timestep 290
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 290, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63584], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 290, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63584], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 290, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 290, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 290, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 290 complete
+INFO kernel : Timestep 291
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 291, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63584], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 291, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63584], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 291, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 291, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 291, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 291 complete
+INFO kernel : Timestep 292
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 292, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 292, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 292, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 32481, 64955, 63768], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 292, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 292, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 292 complete
+INFO kernel : Timestep 293
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 293, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778, 63771], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 293, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778, 63771], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 293, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 32481, 64955, 63768], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 293, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 293, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 293 complete
+INFO kernel : Timestep 294
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 294, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 294, Path = [12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 294, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 788, 12604, 1419, 12613, 5482, 12658, 12667, 5752, 12640, 1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 26254, 63778, 63771], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 294, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 294, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 15007, 2023, 37237, 37224], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 294 complete
+INFO kernel : Timestep 295
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 295, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 295, Path = [12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 295, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 295, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 295, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 295 complete
+INFO kernel : Timestep 296
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 296, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63688], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 296, Path = [12649, 1518, 7339, 3748, 12100, 1224, 12109, 1035, 12118, 6481, 12127, 1902, 12136, 795, 12145, 4308, 12154, 12163, 5007, 31986, 63689, 63688], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 296, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 296, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 296, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 296 complete
+INFO kernel : Timestep 297
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 297, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 297, Path = [12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 297, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 297, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 297, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 297 complete
+INFO kernel : Timestep 298
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 298, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 298, Path = [12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 298, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 1376706877, Time = 298, Target = 41946, Water = 500: Agent Fire brigade (1376706877) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 298, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 298, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 7960, 63, 7969, 2448, 15034, 18247, 7321, 6866, 15304, 3575, 15322, 731, 16573, 5098, 16555, 16537, 16528, 1334, 11587, 2964, 59142, 59130], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 298 complete
+INFO kernel : Timestep 299
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 1409152335, Time = 299, Path = [1511, 12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (1409152335) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 583462909, Time = 299, Path = [12649, 1518, 7339, 3748, 12100, 1224, 7564, 7573, 6106, 7582, 26199, 26187, 32596], Destination X = -1, Destination Y = -1: Agent Fire brigade (583462909) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 714890138, Time = 299, Path = [5146, 14791, 62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (714890138) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:extinguish : Agent ID = 1376706877, Time = 299, Target = 41946, Water = 500: Agent Fire brigade (1376706877) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 984945369, Time = 299, Path = [62903, 11020, 11029, 2212, 11011, 63211, 10984, 2682, 13108, 7261, 13117, 63142, 14935, 2521, 11092, 11101, 11074, 2398, 62763, 62764, 7618, 5314, 7609, 3937, 7600, 7591, 3098, 14296, 14305, 2675, 18274, 18238, 9580, 63173, 63172, 379, 9265, 6269, 9256, 1447, 9283, 5759, 9274, 4744, 9229, 9220, 3139, 9247, 9238, 2380, 9193, 2371, 11524, 2964, 59142, 59130, 27816], Destination X = -1, Destination Y = -1: Agent Fire brigade (984945369) is dead
+INFO kernel : Ignoring command urn:rescuecore2.standard:message:move : Agent ID = 673035357, Time = 299, Path = [4685, 11164, 3250, 11173, 2421, 11218, 11227, 3923, 11200, 724, 13252, 207, 13279, 62713, 14584, 4972, 14593, 1742, 14629, 1587, 14620, 4102, 8536, 62945, 8545, 939, 8554, 237, 8563, 2151, 8500, 3659, 7987, 1147, 46875, 64507, 64508], Destination X = -1, Destination Y = -1: Agent Fire brigade (673035357) is dead
+INFO kernel : Timestep 299 complete
+INFO kernel : Timestep 300
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36662
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36664
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36666
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36670
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36674
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36676
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36678
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36680
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36682
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36686
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36688
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36690
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36692
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36694
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36696
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36698
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36700
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36702
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8372, endpoint = /127.0.0.1:36708
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)

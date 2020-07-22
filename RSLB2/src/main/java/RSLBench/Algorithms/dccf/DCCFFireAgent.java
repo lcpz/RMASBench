@@ -19,7 +19,10 @@ import rescuecore2.standard.entities.StandardWorldModel;
 import rescuecore2.worldmodel.EntityID;
 
 /**
- * A D-CCF fire brigade agent.
+ * A Simplified D-CCF fire brigade agent.
+ *
+ * Given that in the current RMASBench version we cannot access task deadlines
+ * and workloads, this implementation only represents CCF variable nodes.
  *
  * @author lcpz
  *
@@ -46,8 +49,8 @@ public class DCCFFireAgent extends AbstractDCOPAgent {
 			neededAgents *= 1.5;
 
 		/*
-		 * Building brokenness and importance should also be considered, but we don't,
-		 * since they are irrelevant in the current version of RCRS.
+     * We do not consider the brokenness and importance of buildings, since they
+     * are irrelevant in the curren version of the RoboCup Rescue simulator.
 		 */
 
 		return (int) Math.round(neededAgents);
@@ -96,6 +99,9 @@ public class DCCFFireAgent extends AbstractDCOPAgent {
 
 	/**
 	 * Sends a message to self, to simulate the O(|A|) messages per agent.
+   *
+   * To be used only for metrics: in this implementation, the agents do
+   * not exchange messages.
 	 */
 	@Override
 	public Collection<DCCFMessage> sendMessages(CommunicationLayer com) {
