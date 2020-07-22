@@ -1,0 +1,12 @@
+[submodule "BinaryMaxSum"]
+	path = BinaryMaxSum
+	url = https://github.com/RMASBench/BinaryMaxSum.git
+[submodule "roborescue"]
+	path = roborescue
+	url = https://github.com/RMASBench/roborescue.git
+[submodule "MaxSum"]
+	path = MaxSum
+	url = https://github.com/RMASBench/MaxSum.git
+[submodule "BlockadeLoader"]
+	path = BlockadeLoader
+	url = https://github.com/RMASBench/BlockadeLoader.git
