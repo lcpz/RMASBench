@@ -1,0 +1,388 @@
+INFO startup : Looking for gis, perception, communication, agent, simulator and viewer implementations
+INFO startup : Processing jar directory: /home/lc2n18/t00/rmasbench-sequential/RSLB2/boot/../../roborescue/jars
+INFO startup : Processing ../../roborescue/jars/human.jar
+INFO startup : Adding human.ControlledAgentGUI$ControlViewer to kernel.viewers
+INFO startup : Adding human.ControlledAmbulanceTeam to kernel.agents
+INFO startup : Adding human.ControlledFireBrigade to kernel.agents
+INFO startup : Adding human.ControlledPoliceForce to kernel.agents
+INFO startup : Processing ../../roborescue/jars/sample.jar
+INFO startup : Adding sample.SampleCivilian to kernel.agents
+INFO startup : Adding sample.SampleFireBrigade to kernel.agents
+INFO startup : Adding sample.SamplePoliceForce to kernel.agents
+INFO startup : Adding sample.SampleAmbulanceTeam to kernel.agents
+INFO startup : Adding sample.SampleCentre to kernel.agents
+INFO startup : Adding sample.ChannelTestAgent to kernel.agents
+INFO startup : Adding sample.CustomRegistryTestAgent to kernel.agents
+INFO startup : No INSTANCE field in class sample.CustomRegistryTestAgent$CustomEntityFactory
+INFO startup : Could not instantiate class sample.CustomRegistryTestAgent$CustomEntityFactory
+INFO startup : Adding sample.SampleAmbulanceTeam to kernel.agents
+INFO startup : Adding sample.SampleCentre to kernel.agents
+INFO startup : Adding sample.SampleCivilian to kernel.agents
+INFO startup : Adding sample.SampleFireBrigade to kernel.agents
+INFO startup : Adding sample.SamplePoliceForce to kernel.agents
+INFO startup : Adding sample.SampleSimulator to kernel.simulators
+INFO startup : Adding sample.SampleViewer to kernel.viewers
+INFO startup : Processing ../../roborescue/jars/collapse.jar
+INFO startup : Adding collapse.CollapseSimulator to kernel.simulators
+INFO startup : Adding collapse.CollapseSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/misc.jar
+INFO startup : Adding misc.MiscSimulator to kernel.simulators
+INFO startup : Adding misc.MiscSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/clear.jar
+INFO startup : Adding clear.ClearSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/maps.jar
+INFO startup : Processing ../../roborescue/jars/resq-fire.jar
+INFO startup : Adding firesimulator.FireSimulatorWrapper to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/ignition.jar
+INFO startup : Adding ignition.IgnitionSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/handy.jar
+INFO startup : Processing ../../roborescue/jars/standard.jar
+INFO startup : Adding rescuecore2.standard.components.StandardSimulator to kernel.simulators
+INFO startup : Adding rescuecore2.standard.components.StandardViewer to kernel.viewers
+INFO startup : Registered entity factory 'rescuecore2.standard.entities.StandardEntityFactory' with registry System
+INFO startup : Registered property factory 'rescuecore2.standard.entities.StandardPropertyFactory' with registry System
+INFO startup : Adding rescuecore2.standard.kernel.LineOfSightPerception to kernel.perception
+INFO startup : Adding rescuecore2.standard.kernel.StandardPerception to kernel.perception
+INFO startup : Adding rescuecore2.standard.kernel.comms.ChannelCommunicationModel to kernel.communication
+INFO startup : Adding rescuecore2.standard.kernel.comms.StandardCommunicationModel to kernel.communication
+INFO startup : Registered message factory 'rescuecore2.standard.messages.StandardMessageFactory' with registry System
+INFO startup : Processing ../../roborescue/jars/gis2.jar
+INFO startup : Adding gis2.GMLWorldModelCreator to kernel.gis
+INFO startup : Processing ../../roborescue/jars/traffic3.jar
+INFO startup : Adding traffic3.simulator.TrafficSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/kernel.jar
+INFO startup : Adding kernel.AbstractCommunicationModel to kernel.communication
+INFO startup : Adding kernel.RemoteGISWorldModelCreator to kernel.gis
+INFO kernel : Could not instantiate class human.ControlledAgentGUI$ControlViewer
+INFO kernel : Logging to /dev/null
+INFO kernel : Created channel: Voice channel 0 (range = 30000, max 1 messages of size 256)
+INFO kernel : Created channel: Radio channel 1 (bandwidth = 4000)
+INFO kernel : Created channel: Radio channel 2 (bandwidth = 4000)
+INFO kernel : Kernel initialised
+INFO kernel : Perception module: Standard perception
+INFO kernel : Communication module: Channel communication model
+INFO kernel : Command filter: kernel.ChainedCommandFilter@35b97c69
+INFO kernel : Score function: Score graph
+INFO kernel : Termination condition: Timestep >= 300
+INFO kernel : Command collector: CompositeCommandCollector [Timed command collector]
+INFO kernel : Agent controlled entity registered: Fire brigade (1732494658)
+INFO kernel : Agent controlled entity registered: Fire brigade (1617519162)
+INFO kernel : Agent controlled entity registered: Fire brigade (1884812043)
+INFO kernel : Agent controlled entity registered: Fire brigade (1442951680)
+INFO kernel : Agent controlled entity registered: Fire brigade (415857886)
+INFO kernel : Agent controlled entity registered: Fire brigade (2056338946)
+INFO kernel : Agent controlled entity registered: Fire brigade (807499665)
+INFO kernel : Agent controlled entity registered: Fire brigade (750944419)
+INFO kernel : Agent controlled entity registered: Fire brigade (1594971026)
+INFO kernel : Agent controlled entity registered: Fire brigade (2066863242)
+INFO kernel : Agent controlled entity registered: Fire brigade (761618336)
+INFO kernel : Agent controlled entity registered: Fire brigade (767672095)
+INFO kernel : Agent controlled entity registered: Fire brigade (1076548411)
+INFO kernel : Agent controlled entity registered: Fire brigade (833938121)
+INFO kernel : Agent controlled entity registered: Fire brigade (2066566927)
+INFO kernel : Agent controlled entity registered: Fire brigade (383296472)
+INFO kernel : Agent controlled entity registered: Fire brigade (1709396682)
+INFO kernel : Agent controlled entity registered: Fire brigade (1203728627)
+INFO kernel : Agent controlled entity registered: Fire brigade (1387277014)
+INFO kernel : Agent controlled entity registered: Fire brigade (2108597481)
+INFO kernel : Agent controlled entity registered: Fire brigade (524461793)
+INFO kernel : Agent controlled entity registered: Fire brigade (1997975217)
+INFO kernel : Agent controlled entity registered: Fire station (64173)
+INFO kernel : Agent controlled entity registered: Fire brigade (316475756)
+INFO kernel : Agent controlled entity registered: Fire brigade (1491510078)
+INFO kernel : Agent controlled entity registered: Fire brigade (1892879549)
+INFO kernel : Agent controlled entity registered: Fire brigade (209023123)
+INFO kernel : Agent controlled entity registered: Fire brigade (1439131886)
+INFO kernel : Listening for connections on port 8344
+INFO kernel : Waiting for all agents, simulators and viewers to connect.
+INFO kernel : Connection timeout is 3600000ms
+INFO kernel : Waiting for 27 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Simulator 'misc.MiscSimulator' id 1 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53634 request ID 1) connected
+INFO kernel : Simulator 'firesimulator.FireSimulatorWrapper' id 2 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53636 request ID 1) connected
+INFO kernel : Simulator 'traffic3.simulator.TrafficSimulator' id 3 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53638 request ID 1) connected
+INFO kernel : Simulator 1 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53634 request ID 1) acknowledged
+INFO kernel : Simulator 3 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53638 request ID 1) acknowledged
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1732494658 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53640 request ID 1) connected
+INFO kernel : Agent 1732494658 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53640 request ID 1) acknowledged
+INFO kernel : Waiting for 26 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Simulator 2 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53636 request ID 1) acknowledged
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1617519162 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53642 request ID 2) connected
+INFO kernel : Agent 1617519162 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53642 request ID 2) acknowledged
+INFO kernel : Waiting for 25 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1884812043 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53644 request ID 3) connected
+INFO kernel : Agent 1884812043 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53644 request ID 3) acknowledged
+INFO kernel : Waiting for 24 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1442951680 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53646 request ID 4) connected
+INFO kernel : Agent 1442951680 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53646 request ID 4) acknowledged
+INFO kernel : Waiting for 23 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 415857886 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53648 request ID 5) connected
+INFO kernel : Agent 415857886 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53648 request ID 5) acknowledged
+INFO kernel : Waiting for 22 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2056338946 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53650 request ID 6) connected
+INFO kernel : Agent 2056338946 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53650 request ID 6) acknowledged
+INFO kernel : Waiting for 21 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 807499665 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53652 request ID 7) connected
+INFO kernel : Agent 807499665 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53652 request ID 7) acknowledged
+INFO kernel : Waiting for 20 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 750944419 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53654 request ID 8) connected
+INFO kernel : Agent 750944419 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53654 request ID 8) acknowledged
+INFO kernel : Waiting for 19 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1594971026 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53656 request ID 9) connected
+INFO kernel : Agent 1594971026 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53656 request ID 9) acknowledged
+INFO kernel : Waiting for 18 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2066863242 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53658 request ID 10) connected
+INFO kernel : Agent 2066863242 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53658 request ID 10) acknowledged
+INFO kernel : Waiting for 17 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 761618336 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53660 request ID 11) connected
+INFO kernel : Agent 761618336 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53660 request ID 11) acknowledged
+INFO kernel : Waiting for 16 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 767672095 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53662 request ID 12) connected
+INFO kernel : Agent 767672095 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53662 request ID 12) acknowledged
+INFO kernel : Waiting for 15 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1076548411 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53664 request ID 13) connected
+INFO kernel : Agent 1076548411 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53664 request ID 13) acknowledged
+INFO kernel : Waiting for 14 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 833938121 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53666 request ID 14) connected
+INFO kernel : Agent 833938121 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53666 request ID 14) acknowledged
+INFO kernel : Waiting for 13 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2066566927 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53668 request ID 15) connected
+INFO kernel : Agent 2066566927 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53668 request ID 15) acknowledged
+INFO kernel : Waiting for 12 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 383296472 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53670 request ID 16) connected
+INFO kernel : Agent 383296472 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53670 request ID 16) acknowledged
+INFO kernel : Waiting for 11 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1709396682 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53672 request ID 17) connected
+INFO kernel : Agent 1709396682 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53672 request ID 17) acknowledged
+INFO kernel : Waiting for 10 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1203728627 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53674 request ID 18) connected
+INFO kernel : Agent 1203728627 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53674 request ID 18) acknowledged
+INFO kernel : Waiting for 9 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1387277014 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53676 request ID 19) connected
+INFO kernel : Agent 1387277014 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53676 request ID 19) acknowledged
+INFO kernel : Waiting for 8 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2108597481 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53678 request ID 20) connected
+INFO kernel : Agent 2108597481 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53678 request ID 20) acknowledged
+INFO kernel : Waiting for 7 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 524461793 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53680 request ID 21) connected
+INFO kernel : Agent 524461793 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53680 request ID 21) acknowledged
+INFO kernel : Waiting for 6 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1997975217 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53682 request ID 22) connected
+INFO kernel : Agent 1997975217 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53682 request ID 22) acknowledged
+INFO kernel : Waiting for 5 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 316475756 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53684 request ID 23) connected
+INFO kernel : Agent 316475756 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53684 request ID 23) acknowledged
+INFO kernel : Waiting for 4 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1491510078 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53686 request ID 24) connected
+INFO kernel : Agent 1491510078 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53686 request ID 24) acknowledged
+INFO kernel : Waiting for 3 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1892879549 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53688 request ID 25) connected
+INFO kernel : Agent 1892879549 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53688 request ID 25) acknowledged
+INFO kernel : Waiting for 2 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 209023123 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53690 request ID 26) connected
+INFO kernel : Agent 209023123 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53690 request ID 26) acknowledged
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1439131886 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53692 request ID 27) connected
+INFO kernel : Agent 1439131886 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53692 request ID 27) acknowledged
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.CenterAgent' id 64173 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53698 request ID 30) connected
+INFO kernel : Agent 64173 (TCPConnection: local port 8344, endpoint = /127.0.0.1:53698 request ID 30) acknowledged
+INFO kernel : Timestep 1
+INFO kernel : Ignoring early commands: 1 < 3
+INFO kernel : Timestep 1 complete
+INFO kernel : Timestep 2
+INFO kernel : Ignoring early commands: 2 < 3
+INFO kernel : Timestep 2 complete
+INFO kernel : Timestep 3
+INFO kernel : Timestep 3 complete
+INFO kernel : Timestep 4
+INFO kernel : Timestep 4 complete
+INFO kernel : Timestep 5
+INFO kernel : Timestep 5 complete
+INFO kernel : Timestep 6
+INFO kernel : Timestep 6 complete
+INFO kernel : Timestep 7
+INFO kernel : Timestep 7 complete
+INFO kernel : Timestep 8
+INFO kernel : Timestep 8 complete
+INFO kernel : Timestep 9
+INFO kernel : Timestep 9 complete
+INFO kernel : Timestep 10
+INFO kernel : Timestep 10 complete
+INFO kernel : Timestep 11
+INFO kernel : Timestep 11 complete
+INFO kernel : Timestep 12
+INFO kernel : Timestep 12 complete
+INFO kernel : Timestep 13
+INFO kernel : Timestep 13 complete
+INFO kernel : Timestep 14
+INFO kernel : Timestep 14 complete
+INFO kernel : Timestep 15
+INFO kernel : Timestep 15 complete
+INFO kernel : Timestep 16
+INFO kernel : Timestep 16 complete
+INFO kernel : Timestep 17
+INFO kernel : Timestep 17 complete
+INFO kernel : Timestep 18
+INFO kernel : Timestep 18 complete
+INFO kernel : Timestep 19
+INFO kernel : Timestep 19 complete
+INFO kernel : Timestep 20
+INFO kernel : Timestep 20 complete
+INFO kernel : Timestep 21
+INFO kernel : Timestep 21 complete
+INFO kernel : Timestep 22
+INFO kernel : Timestep 22 complete
+INFO kernel : Timestep 23
+INFO kernel : Timestep 23 complete
+INFO kernel : Timestep 24
+INFO kernel : Timestep 24 complete
+INFO kernel : Timestep 25
+INFO kernel : Timestep 25 complete
+INFO kernel : Timestep 26
+INFO kernel : Timestep 26 complete
+INFO kernel : Timestep 27
+INFO kernel : Timestep 27 complete
+INFO kernel : Timestep 28
+INFO kernel : Timestep 28 complete
+INFO kernel : Timestep 29
+INFO kernel : Timestep 29 complete
+INFO kernel : Timestep 30
+INFO kernel : Timestep 30 complete
+INFO kernel : Timestep 31
+INFO kernel : Timestep 31 complete
+INFO kernel : Timestep 32
+INFO kernel : Timestep 32 complete
+INFO kernel : Timestep 33
+INFO kernel : Timestep 33 complete
+INFO kernel : Timestep 34
+INFO kernel : Timestep 34 complete
+INFO kernel : Timestep 35
+INFO kernel : Timestep 35 complete
+INFO kernel : Timestep 36
+INFO kernel : Timestep 36 complete
+INFO kernel : Timestep 37
+INFO kernel : Timestep 37 complete
+INFO kernel : Timestep 38
+INFO kernel : Timestep 38 complete
+INFO kernel : Timestep 39
+INFO kernel : Timestep 39 complete
+INFO kernel : Timestep 40
+INFO kernel : Timestep 40 complete
+INFO kernel : Timestep 41
+INFO kernel : Timestep 41 complete
+INFO kernel : Timestep 42
+INFO kernel : Timestep 42 complete
+INFO kernel : Timestep 43
+INFO kernel : Timestep 43 complete
+INFO kernel : Timestep 44
+INFO kernel : Timestep 44 complete
+INFO kernel : Timestep 45
+INFO kernel : Timestep 45 complete
+INFO kernel : Timestep 46
+INFO kernel : Timestep 46 complete
+INFO kernel : Timestep 47
+INFO kernel : Timestep 47 complete
+INFO kernel : Timestep 48
+INFO kernel : Timestep 48 complete
+INFO kernel : Timestep 49
+INFO kernel : Timestep 49 complete
+INFO kernel : Timestep 50
+INFO kernel : Timestep 50 complete
+INFO kernel : Timestep 51
+INFO kernel : Timestep 51 complete
+INFO kernel : Timestep 52
+INFO kernel : Timestep 52 complete
+INFO kernel : Timestep 53
+INFO kernel : Timestep 53 complete
+INFO kernel : Timestep 54
+INFO kernel : Timestep 54 complete
+INFO kernel : Timestep 55
+INFO kernel : Timestep 55 complete
+INFO kernel : Timestep 56
+INFO kernel : Timestep 56 complete
+INFO kernel : Timestep 57
+INFO kernel : Timestep 57 complete
+INFO kernel : Timestep 58
+INFO kernel : Timestep 58 complete
+INFO kernel : Timestep 59
+INFO kernel : Timestep 59 complete
+INFO kernel : Timestep 60
+INFO kernel : Timestep 60 complete
+INFO kernel : Timestep 61
+INFO kernel : Timestep 61 complete
+INFO kernel : Timestep 62
+INFO kernel : Timestep 62 complete
+INFO kernel : Timestep 63
+INFO kernel : Timestep 63 complete
+INFO kernel : Timestep 64
+INFO kernel : Timestep 64 complete
+INFO kernel : Timestep 65
+INFO kernel : Timestep 65 complete
+INFO kernel : Timestep 66
+INFO kernel : Timestep 66 complete
+INFO kernel : Timestep 67
+INFO kernel : Timestep 67 complete
+INFO kernel : Timestep 68
+INFO kernel : Timestep 68 complete
+INFO kernel : Timestep 69
+INFO kernel : Timestep 69 complete
+INFO kernel : Timestep 70
+INFO kernel : Timestep 70 complete
+INFO kernel : Timestep 71
+INFO kernel : Timestep 71 complete
+INFO kernel : Timestep 72
+INFO kernel : Timestep 72 complete
+INFO kernel : Timestep 73
+INFO kernel : Timestep 73 complete
+INFO kernel : Timestep 74
+INFO kernel : Timestep 74 complete
+INFO kernel : Timestep 75
+INFO kernel : Timestep 75 complete
+INFO kernel : Timestep 76
+INFO kernel : Timestep 76 complete
+INFO kernel : Timestep 77
+INFO kernel : Timestep 77 complete
+INFO kernel : Timestep 78
+INFO kernel : Timestep 78 complete
+INFO kernel : Timestep 79
+INFO kernel : Timestep 79 complete
+INFO kernel : Timestep 80
+INFO kernel : Timestep 80 complete
+INFO kernel : Timestep 81
+INFO kernel : Timestep 81 complete
+INFO kernel : Timestep 82
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 8344, endpoint = /127.0.0.1:53686
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)

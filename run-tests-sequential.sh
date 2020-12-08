@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a solvers=("D-CCF" "BMS" "DSA")
+declare -a solvers=("S-CTS" "BMS" "DSA")
 declare -a scenarios=("15agents" "21agents" "27agents" "33agents" "40agents")
 
 count=1

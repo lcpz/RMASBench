@@ -6,7 +6,7 @@ then
     return 1
 fi
 
-declare -a solvers=("D-CCF" "BMS" "DSA")
+declare -a solvers=("S-CTS" "BMS" "DSA")
 
 user_id="$1"
 start_path="/home/user_id/t00/rmasbench/RSLB2/boot"

@@ -1,0 +1,563 @@
+INFO startup : Looking for gis, perception, communication, agent, simulator and viewer implementations
+INFO startup : Processing jar directory: /home/lc2n18/t00/rmasbench-sequential/RSLB2/boot/../../roborescue/jars
+INFO startup : Processing ../../roborescue/jars/human.jar
+INFO startup : Adding human.ControlledAgentGUI$ControlViewer to kernel.viewers
+INFO startup : Adding human.ControlledAmbulanceTeam to kernel.agents
+INFO startup : Adding human.ControlledFireBrigade to kernel.agents
+INFO startup : Adding human.ControlledPoliceForce to kernel.agents
+INFO startup : Processing ../../roborescue/jars/sample.jar
+INFO startup : Adding sample.SampleCivilian to kernel.agents
+INFO startup : Adding sample.SampleFireBrigade to kernel.agents
+INFO startup : Adding sample.SamplePoliceForce to kernel.agents
+INFO startup : Adding sample.SampleAmbulanceTeam to kernel.agents
+INFO startup : Adding sample.SampleCentre to kernel.agents
+INFO startup : Adding sample.ChannelTestAgent to kernel.agents
+INFO startup : Adding sample.CustomRegistryTestAgent to kernel.agents
+INFO startup : No INSTANCE field in class sample.CustomRegistryTestAgent$CustomEntityFactory
+INFO startup : Could not instantiate class sample.CustomRegistryTestAgent$CustomEntityFactory
+INFO startup : Adding sample.SampleAmbulanceTeam to kernel.agents
+INFO startup : Adding sample.SampleCentre to kernel.agents
+INFO startup : Adding sample.SampleCivilian to kernel.agents
+INFO startup : Adding sample.SampleFireBrigade to kernel.agents
+INFO startup : Adding sample.SamplePoliceForce to kernel.agents
+INFO startup : Adding sample.SampleSimulator to kernel.simulators
+INFO startup : Adding sample.SampleViewer to kernel.viewers
+INFO startup : Processing ../../roborescue/jars/collapse.jar
+INFO startup : Adding collapse.CollapseSimulator to kernel.simulators
+INFO startup : Adding collapse.CollapseSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/misc.jar
+INFO startup : Adding misc.MiscSimulator to kernel.simulators
+INFO startup : Adding misc.MiscSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/clear.jar
+INFO startup : Adding clear.ClearSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/maps.jar
+INFO startup : Processing ../../roborescue/jars/resq-fire.jar
+INFO startup : Adding firesimulator.FireSimulatorWrapper to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/ignition.jar
+INFO startup : Adding ignition.IgnitionSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/handy.jar
+INFO startup : Processing ../../roborescue/jars/standard.jar
+INFO startup : Adding rescuecore2.standard.components.StandardSimulator to kernel.simulators
+INFO startup : Adding rescuecore2.standard.components.StandardViewer to kernel.viewers
+INFO startup : Registered entity factory 'rescuecore2.standard.entities.StandardEntityFactory' with registry System
+INFO startup : Registered property factory 'rescuecore2.standard.entities.StandardPropertyFactory' with registry System
+INFO startup : Adding rescuecore2.standard.kernel.LineOfSightPerception to kernel.perception
+INFO startup : Adding rescuecore2.standard.kernel.StandardPerception to kernel.perception
+INFO startup : Adding rescuecore2.standard.kernel.comms.ChannelCommunicationModel to kernel.communication
+INFO startup : Adding rescuecore2.standard.kernel.comms.StandardCommunicationModel to kernel.communication
+INFO startup : Registered message factory 'rescuecore2.standard.messages.StandardMessageFactory' with registry System
+INFO startup : Processing ../../roborescue/jars/gis2.jar
+INFO startup : Adding gis2.GMLWorldModelCreator to kernel.gis
+INFO startup : Processing ../../roborescue/jars/traffic3.jar
+INFO startup : Adding traffic3.simulator.TrafficSimulator to kernel.simulators
+INFO startup : Processing ../../roborescue/jars/kernel.jar
+INFO startup : Adding kernel.AbstractCommunicationModel to kernel.communication
+INFO startup : Adding kernel.RemoteGISWorldModelCreator to kernel.gis
+INFO kernel : Could not instantiate class human.ControlledAgentGUI$ControlViewer
+INFO kernel : Logging to /dev/null
+INFO kernel : Created channel: Voice channel 0 (range = 30000, max 1 messages of size 256)
+INFO kernel : Created channel: Radio channel 1 (bandwidth = 4000)
+INFO kernel : Created channel: Radio channel 2 (bandwidth = 4000)
+INFO kernel : Kernel initialised
+INFO kernel : Perception module: Standard perception
+INFO kernel : Communication module: Channel communication model
+INFO kernel : Command filter: kernel.ChainedCommandFilter@2fc72df3
+INFO kernel : Score function: Score graph
+INFO kernel : Termination condition: Timestep >= 300
+INFO kernel : Command collector: CompositeCommandCollector [Timed command collector]
+INFO kernel : Agent controlled entity registered: Fire brigade (233631188)
+INFO kernel : Agent controlled entity registered: Fire brigade (1331318571)
+INFO kernel : Agent controlled entity registered: Fire brigade (1727538417)
+INFO kernel : Agent controlled entity registered: Fire brigade (430742321)
+INFO kernel : Agent controlled entity registered: Fire brigade (1367233436)
+INFO kernel : Agent controlled entity registered: Fire brigade (2112478898)
+INFO kernel : Agent controlled entity registered: Fire brigade (726886600)
+INFO kernel : Agent controlled entity registered: Fire brigade (1014626464)
+INFO kernel : Agent controlled entity registered: Fire brigade (1995952978)
+INFO kernel : Agent controlled entity registered: Fire brigade (1153295289)
+INFO kernel : Agent controlled entity registered: Fire brigade (557426203)
+INFO kernel : Agent controlled entity registered: Fire brigade (649642462)
+INFO kernel : Agent controlled entity registered: Fire brigade (1422250863)
+INFO kernel : Agent controlled entity registered: Fire brigade (339500320)
+INFO kernel : Agent controlled entity registered: Fire brigade (896654382)
+INFO kernel : Agent controlled entity registered: Fire brigade (671059506)
+INFO kernel : Agent controlled entity registered: Fire brigade (1168764588)
+INFO kernel : Agent controlled entity registered: Fire brigade (779470120)
+INFO kernel : Agent controlled entity registered: Fire brigade (737085172)
+INFO kernel : Agent controlled entity registered: Fire brigade (84077428)
+INFO kernel : Agent controlled entity registered: Fire brigade (976147693)
+INFO kernel : Agent controlled entity registered: Fire brigade (1858757075)
+INFO kernel : Agent controlled entity registered: Fire brigade (754598820)
+INFO kernel : Agent controlled entity registered: Fire brigade (1962099866)
+INFO kernel : Agent controlled entity registered: Fire brigade (1248697177)
+INFO kernel : Agent controlled entity registered: Fire brigade (1836449595)
+INFO kernel : Agent controlled entity registered: Fire brigade (2058725592)
+INFO kernel : Agent controlled entity registered: Fire brigade (1837932377)
+INFO kernel : Agent controlled entity registered: Fire brigade (391431027)
+INFO kernel : Agent controlled entity registered: Fire brigade (417435071)
+INFO kernel : Agent controlled entity registered: Fire brigade (2051624857)
+INFO kernel : Agent controlled entity registered: Fire brigade (625242275)
+INFO kernel : Agent controlled entity registered: Fire brigade (2025221639)
+INFO kernel : Agent controlled entity registered: Fire brigade (412254337)
+INFO kernel : Agent controlled entity registered: Fire brigade (515196805)
+INFO kernel : Agent controlled entity registered: Fire brigade (2075869482)
+INFO kernel : Agent controlled entity registered: Fire station (64173)
+INFO kernel : Agent controlled entity registered: Fire brigade (1262883004)
+INFO kernel : Agent controlled entity registered: Fire brigade (1180064417)
+INFO kernel : Agent controlled entity registered: Fire brigade (2126119914)
+INFO kernel : Agent controlled entity registered: Fire brigade (962496494)
+INFO kernel : Listening for connections on port 7174
+INFO kernel : Waiting for all agents, simulators and viewers to connect.
+INFO kernel : Connection timeout is 3600000ms
+INFO kernel : Waiting for 40 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Simulator 'misc.MiscSimulator' id 1 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51572 request ID 1) connected
+INFO kernel : Simulator 'firesimulator.FireSimulatorWrapper' id 2 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51574 request ID 1) connected
+INFO kernel : Simulator 'traffic3.simulator.TrafficSimulator' id 3 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51576 request ID 1) connected
+INFO kernel : Simulator 1 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51572 request ID 1) acknowledged
+INFO kernel : Simulator 3 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51576 request ID 1) acknowledged
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 233631188 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51578 request ID 1) connected
+INFO kernel : Agent 233631188 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51578 request ID 1) acknowledged
+INFO kernel : Waiting for 39 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Simulator 2 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51574 request ID 1) acknowledged
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1331318571 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51580 request ID 2) connected
+INFO kernel : Agent 1331318571 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51580 request ID 2) acknowledged
+INFO kernel : Waiting for 38 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1727538417 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51582 request ID 3) connected
+INFO kernel : Agent 1727538417 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51582 request ID 3) acknowledged
+INFO kernel : Waiting for 37 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 430742321 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51584 request ID 4) connected
+INFO kernel : Agent 430742321 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51584 request ID 4) acknowledged
+INFO kernel : Waiting for 36 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1367233436 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51586 request ID 5) connected
+INFO kernel : Agent 1367233436 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51586 request ID 5) acknowledged
+INFO kernel : Waiting for 35 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2112478898 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51588 request ID 6) connected
+INFO kernel : Agent 2112478898 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51588 request ID 6) acknowledged
+INFO kernel : Waiting for 34 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 726886600 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51590 request ID 7) connected
+INFO kernel : Agent 726886600 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51590 request ID 7) acknowledged
+INFO kernel : Waiting for 33 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1014626464 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51592 request ID 8) connected
+INFO kernel : Agent 1014626464 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51592 request ID 8) acknowledged
+INFO kernel : Waiting for 32 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1995952978 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51594 request ID 9) connected
+INFO kernel : Agent 1995952978 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51594 request ID 9) acknowledged
+INFO kernel : Waiting for 31 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1153295289 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51596 request ID 10) connected
+INFO kernel : Agent 1153295289 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51596 request ID 10) acknowledged
+INFO kernel : Waiting for 30 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 557426203 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51598 request ID 11) connected
+INFO kernel : Agent 557426203 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51598 request ID 11) acknowledged
+INFO kernel : Waiting for 29 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 649642462 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51600 request ID 12) connected
+INFO kernel : Agent 649642462 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51600 request ID 12) acknowledged
+INFO kernel : Waiting for 28 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1422250863 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51602 request ID 13) connected
+INFO kernel : Agent 1422250863 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51602 request ID 13) acknowledged
+INFO kernel : Waiting for 27 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 339500320 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51604 request ID 14) connected
+INFO kernel : Agent 339500320 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51604 request ID 14) acknowledged
+INFO kernel : Waiting for 26 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 896654382 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51606 request ID 15) connected
+INFO kernel : Agent 896654382 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51606 request ID 15) acknowledged
+INFO kernel : Waiting for 25 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 671059506 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51608 request ID 16) connected
+INFO kernel : Agent 671059506 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51608 request ID 16) acknowledged
+INFO kernel : Waiting for 24 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1168764588 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51610 request ID 17) connected
+INFO kernel : Agent 1168764588 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51610 request ID 17) acknowledged
+INFO kernel : Waiting for 23 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 779470120 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51612 request ID 18) connected
+INFO kernel : Agent 779470120 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51612 request ID 18) acknowledged
+INFO kernel : Waiting for 22 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 737085172 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51614 request ID 19) connected
+INFO kernel : Agent 737085172 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51614 request ID 19) acknowledged
+INFO kernel : Waiting for 21 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 84077428 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51616 request ID 20) connected
+INFO kernel : Agent 84077428 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51616 request ID 20) acknowledged
+INFO kernel : Waiting for 20 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 976147693 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51618 request ID 21) connected
+INFO kernel : Agent 976147693 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51618 request ID 21) acknowledged
+INFO kernel : Waiting for 19 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1858757075 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51620 request ID 22) connected
+INFO kernel : Agent 1858757075 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51620 request ID 22) acknowledged
+INFO kernel : Waiting for 18 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 754598820 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51622 request ID 23) connected
+INFO kernel : Agent 754598820 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51622 request ID 23) acknowledged
+INFO kernel : Waiting for 17 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1962099866 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51624 request ID 24) connected
+INFO kernel : Agent 1962099866 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51624 request ID 24) acknowledged
+INFO kernel : Waiting for 16 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1248697177 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51626 request ID 25) connected
+INFO kernel : Agent 1248697177 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51626 request ID 25) acknowledged
+INFO kernel : Waiting for 15 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1836449595 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51628 request ID 26) connected
+INFO kernel : Agent 1836449595 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51628 request ID 26) acknowledged
+INFO kernel : Waiting for 14 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2058725592 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51630 request ID 27) connected
+INFO kernel : Agent 2058725592 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51630 request ID 27) acknowledged
+INFO kernel : Waiting for 13 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1837932377 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51632 request ID 28) connected
+INFO kernel : Agent 1837932377 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51632 request ID 28) acknowledged
+INFO kernel : Waiting for 12 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 391431027 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51634 request ID 29) connected
+INFO kernel : Agent 391431027 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51634 request ID 29) acknowledged
+INFO kernel : Waiting for 11 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 417435071 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51636 request ID 30) connected
+INFO kernel : Agent 417435071 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51636 request ID 30) acknowledged
+INFO kernel : Waiting for 10 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2051624857 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51638 request ID 31) connected
+INFO kernel : Agent 2051624857 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51638 request ID 31) acknowledged
+INFO kernel : Waiting for 9 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 625242275 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51640 request ID 32) connected
+INFO kernel : Agent 625242275 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51640 request ID 32) acknowledged
+INFO kernel : Waiting for 8 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2025221639 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51642 request ID 33) connected
+INFO kernel : Agent 2025221639 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51642 request ID 33) acknowledged
+INFO kernel : Waiting for 7 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 412254337 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51644 request ID 34) connected
+INFO kernel : Agent 412254337 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51644 request ID 34) acknowledged
+INFO kernel : Waiting for 6 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 515196805 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51646 request ID 35) connected
+INFO kernel : Agent 515196805 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51646 request ID 35) acknowledged
+INFO kernel : Waiting for 5 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2075869482 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51648 request ID 36) connected
+INFO kernel : Agent 2075869482 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51648 request ID 36) acknowledged
+INFO kernel : Waiting for 4 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1262883004 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51650 request ID 37) connected
+INFO kernel : Agent 1262883004 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51650 request ID 37) acknowledged
+INFO kernel : Waiting for 3 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 1180064417 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51652 request ID 38) connected
+INFO kernel : Agent 1180064417 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51652 request ID 38) acknowledged
+INFO kernel : Waiting for 2 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 2126119914 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51654 request ID 39) connected
+INFO kernel : Agent 2126119914 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51654 request ID 39) acknowledged
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firebrigade
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.PlatoonFireAgent' id 962496494 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51656 request ID 40) connected
+INFO kernel : Agent 962496494 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51656 request ID 40) acknowledged
+INFO kernel : Waiting for 1 entities of type urn:rescuecore2.standard:entity:firestation
+INFO kernel : Agent 'RSLBench.CenterAgent' id 64173 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51662 request ID 43) connected
+INFO kernel : Agent 64173 (TCPConnection: local port 7174, endpoint = /127.0.0.1:51662 request ID 43) acknowledged
+INFO kernel : Timestep 1
+INFO kernel : Ignoring early commands: 1 < 3
+INFO kernel : Timestep 1 complete
+INFO kernel : Timestep 2
+INFO kernel : Ignoring early commands: 2 < 3
+INFO kernel : Timestep 2 complete
+INFO kernel : Timestep 3
+INFO kernel : Timestep 3 complete
+INFO kernel : Timestep 4
+INFO kernel : Timestep 4 complete
+INFO kernel : Timestep 5
+INFO kernel : Timestep 5 complete
+INFO kernel : Timestep 6
+INFO kernel : Timestep 6 complete
+INFO kernel : Timestep 7
+INFO kernel : Timestep 7 complete
+INFO kernel : Timestep 8
+INFO kernel : Timestep 8 complete
+INFO kernel : Timestep 9
+INFO kernel : Timestep 9 complete
+INFO kernel : Timestep 10
+INFO kernel : Timestep 10 complete
+INFO kernel : Timestep 11
+INFO kernel : Timestep 11 complete
+INFO kernel : Timestep 12
+INFO kernel : Timestep 12 complete
+INFO kernel : Timestep 13
+INFO kernel : Timestep 13 complete
+INFO kernel : Timestep 14
+INFO kernel : Timestep 14 complete
+INFO kernel : Timestep 15
+INFO kernel : Timestep 15 complete
+INFO kernel : Timestep 16
+INFO kernel : Timestep 16 complete
+INFO kernel : Timestep 17
+INFO kernel : Timestep 17 complete
+INFO kernel : Timestep 18
+INFO kernel : Timestep 18 complete
+INFO kernel : Timestep 19
+INFO kernel : Timestep 19 complete
+INFO kernel : Timestep 20
+INFO kernel : Timestep 20 complete
+INFO kernel : Timestep 21
+INFO kernel : Timestep 21 complete
+INFO kernel : Timestep 22
+INFO kernel : Timestep 22 complete
+INFO kernel : Timestep 23
+INFO kernel : Timestep 23 complete
+INFO kernel : Timestep 24
+INFO kernel : Timestep 24 complete
+INFO kernel : Timestep 25
+INFO kernel : Timestep 25 complete
+INFO kernel : Timestep 26
+INFO kernel : Timestep 26 complete
+INFO kernel : Timestep 27
+INFO kernel : Timestep 27 complete
+INFO kernel : Timestep 28
+INFO kernel : Timestep 28 complete
+INFO kernel : Timestep 29
+INFO kernel : Timestep 29 complete
+INFO kernel : Timestep 30
+INFO kernel : Timestep 30 complete
+INFO kernel : Timestep 31
+INFO kernel : Timestep 31 complete
+INFO kernel : Timestep 32
+INFO kernel : Timestep 32 complete
+INFO kernel : Timestep 33
+INFO kernel : Timestep 33 complete
+INFO kernel : Timestep 34
+INFO kernel : Timestep 34 complete
+INFO kernel : Timestep 35
+INFO kernel : Timestep 35 complete
+INFO kernel : Timestep 36
+INFO kernel : Timestep 36 complete
+INFO kernel : Timestep 37
+INFO kernel : Timestep 37 complete
+INFO kernel : Timestep 38
+INFO kernel : Timestep 38 complete
+INFO kernel : Timestep 39
+INFO kernel : Timestep 39 complete
+INFO kernel : Timestep 40
+INFO kernel : Timestep 40 complete
+INFO kernel : Timestep 41
+INFO kernel : Timestep 41 complete
+INFO kernel : Timestep 42
+INFO kernel : Timestep 42 complete
+INFO kernel : Timestep 43
+INFO kernel : Timestep 43 complete
+INFO kernel : Timestep 44
+INFO kernel : Timestep 44 complete
+INFO kernel : Timestep 45
+INFO kernel : Timestep 45 complete
+INFO kernel : Timestep 46
+INFO kernel : Timestep 46 complete
+INFO kernel : Timestep 47
+INFO kernel : Timestep 47 complete
+INFO kernel : Timestep 48
+INFO kernel : Timestep 48 complete
+INFO kernel : Timestep 49
+INFO kernel : Timestep 49 complete
+INFO kernel : Timestep 50
+INFO kernel : Timestep 50 complete
+INFO kernel : Timestep 51
+INFO kernel : Timestep 51 complete
+INFO kernel : Timestep 52
+INFO kernel : Timestep 52 complete
+INFO kernel : Timestep 53
+INFO kernel : Timestep 53 complete
+INFO kernel : Timestep 54
+INFO kernel : Timestep 54 complete
+INFO kernel : Timestep 55
+INFO kernel : Timestep 55 complete
+INFO kernel : Timestep 56
+INFO kernel : Timestep 56 complete
+INFO kernel : Timestep 57
+INFO kernel : Timestep 57 complete
+INFO kernel : Timestep 58
+INFO kernel : Timestep 58 complete
+INFO kernel : Timestep 59
+INFO kernel : Timestep 59 complete
+INFO kernel : Timestep 60
+INFO kernel : Timestep 60 complete
+INFO kernel : Timestep 61
+INFO kernel : Timestep 61 complete
+INFO kernel : Timestep 62
+INFO kernel : Timestep 62 complete
+INFO kernel : Timestep 63
+INFO kernel : Timestep 63 complete
+INFO kernel : Timestep 64
+INFO kernel : Timestep 64 complete
+INFO kernel : Timestep 65
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51650
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error writing to StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51610
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:132)
+	at rescuecore2.misc.EncodingTools.writeInt32(EncodingTools.java:54)
+	at rescuecore2.connection.StreamConnection$WriteThread.work(StreamConnection.java:150)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51648
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51654
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51640
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51578
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51582
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51584
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51594
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51600
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51604
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51606
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51612
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51616
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51618
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51622
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51626
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51630
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)
+ERROR kernel : Error reading from StreamConnection TCPConnection: local port 7174, endpoint = /127.0.0.1:51632
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at rescuecore2.misc.EncodingTools.readInt32(EncodingTools.java:104)
+	at rescuecore2.connection.StreamConnection$ReadThread.work(StreamConnection.java:110)
+	at rescuecore2.misc.WorkerThread.run(WorkerThread.java:48)

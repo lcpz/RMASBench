@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a solvers=("D-CCF" "BMS" "DSA")
+declare -a solvers=("S-CTS" "BMS" "DSA")
 
 count=1
 

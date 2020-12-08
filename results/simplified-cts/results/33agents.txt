@@ -1,0 +1,24 @@
+###    3 results/00-S-CTS/33agents
+
+time: 97.93333 [+-10.37528]
+nOnceBurned: 58.60000 [+-18.42019]
+average CPU time: 6.80000 [+-0.67889]
+original score: 1.43590 [+-0.30949]
+Capezzuto's score: 5.95126 [+-2.32584]
+
+###    8 results/02-DSA/33agents
+
+time: 65.00000 [+-1.38484]
+nOnceBurned: 29.63333 [+-1.29913]
+average CPU time: 23.10000 [+-0.53406]
+original score: 0.99175 [+-0.00036]
+Capezzuto's score: 2.23766 [+-0.10591]
+
+###   13 results/01-BMS/33agents
+
+time: 61.63333 [+-0.64028]
+nOnceBurned: 26.00000 [+-0.80416]
+average CPU time: 187.53333 [+-7.14139]
+original score: 0.99325 [+-0.00013]
+Capezzuto's score: 1.93901 [+-0.06208]
+

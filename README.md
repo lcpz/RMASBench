@@ -1,6 +1,6 @@
 # RMASBench: Multi-Agent Coordination Benchmark
 
-This is the RMASBench benchmarking tool, extended for the paper [Anytime, Efficient and Distributed Multi-Agent Coordination in Urban Disaster Response](https://lcpz.gitlab.io/publications).
+This is the RMASBench benchmarking tool, extended for the paper [Anytime and Efficient Multi-Agent Coordination in Urban Disaster Response](https://lcpz.gitlab.io/publications).
 
 Following are brief instructions on how to install, build and produce the results.
 
@@ -17,7 +17,7 @@ and the RoboCup Rescue simulator [manual](https://roborescue.sourceforge.io/docs
 ## Installation
 
 ```shell
-git clone --recursive https://github.com/cmi/gopal/rmasbench.git
+git clone --recursive https://gitlab.com/lcpz/rmasbench.git
 ```
 
 ## Build and run tests
@@ -34,6 +34,6 @@ cd rmasbench
 - In general, each test runs at most for 5 minutes.
 - The simulator creates some cache files at its first execution. This procedure
   can take hours on slow machines. To skip it, download the
-  [cache-rays.zip](https://git.soton.ac.uk/cmi/gopal/rmasbench-cache) archive
+  [cache-rays.zip](https://gitlab.com/lcpz/rmasbench-cache) archive
   and unzip the contents into `RSLB2/boot`, overriting the folders `cache/` and
   `rays/` if they already exists.
